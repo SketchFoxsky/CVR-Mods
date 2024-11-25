@@ -8,10 +8,10 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\Sketch-CVRMods\\SourceMovement.csproj",
-      "projectPath": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\Sketch-CVRMods\\SourceMovement.csproj",
+      "projectUniqueName": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\SourceMovement\\SourceMovement.csproj",
+      "projectPath": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\SourceMovement\\SourceMovement.csproj",
       "packagesPath": "C:\\Users\\leona\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\Sketch-CVRMods\\obj\\",
+      "outputPath": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\SourceMovement\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\leona\\AppData\\Roaming\\NuGet\\NuGet.Config",

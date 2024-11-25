@@ -1,0 +1,25 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\SourceMovement\\SourceMovement.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\SourceMovement\\SourceMovement.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\SourceMovement\\SourceMovement.csproj",
+        "projectPath": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\SourceMovement\\SourceMovement.csproj",
+        "packagesPath": "C:\\Users\\leona\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\SourceMovement\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\leona\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        }
+      }
+    }
+  }
+}

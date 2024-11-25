@@ -11,12 +11,12 @@
       "RelativeMoniker": "D:0:0:{97F4D30E-54D7-4061-AEFD-5E36DA2FC39E}|SourceMovement.csproj|solutionrelative:format.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97F4D30E-54D7-4061-AEFD-5E36DA2FC39E}|SourceMovement.csproj|c:\\users\\leona\\documents\\sketch cvr mods\\cvr-mods\\sketch-cvrmods\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97F4D30E-54D7-4061-AEFD-5E36DA2FC39E}|SourceMovement.csproj|solutionrelative:properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{97F4D30E-54D7-4061-AEFD-5E36DA2FC39E}|SourceMovement.csproj|c:\\users\\leona\\documents\\sketch cvr mods\\cvr-mods\\sketch-cvrmods\\sourcemovement.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{97F4D30E-54D7-4061-AEFD-5E36DA2FC39E}|SourceMovement.csproj|solutionrelative:sourcemovement.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97F4D30E-54D7-4061-AEFD-5E36DA2FC39E}|SourceMovement.csproj|c:\\users\\leona\\documents\\sketch cvr mods\\cvr-mods\\sketch-cvrmods\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97F4D30E-54D7-4061-AEFD-5E36DA2FC39E}|SourceMovement.csproj|solutionrelative:properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,8 +43,8 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SourceMovement",
+              "DocumentIndex": 2,
+              "Title": "SourceMovement.csproj",
               "DocumentMoniker": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\Sketch-CVRMods\\SourceMovement.csproj",
               "RelativeDocumentMoniker": "SourceMovement.csproj",
               "ToolTip": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\Sketch-CVRMods\\SourceMovement.csproj",
@@ -56,7 +56,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "AssemblyInfo.cs",
               "DocumentMoniker": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\Sketch-CVRMods\\Properties\\AssemblyInfo.cs",
               "RelativeDocumentMoniker": "Properties\\AssemblyInfo.cs",
