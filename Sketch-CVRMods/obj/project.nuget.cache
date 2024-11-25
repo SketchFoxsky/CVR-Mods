@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "JtBzioqiaSM=",
+  "success": false,
+  "projectFilePath": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\Sketch-CVRMods\\SourceMovement.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to read project information for 'SourceMovement': Invalid framework identifier ''."
+    }
+  ]
+}
