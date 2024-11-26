@@ -4,10 +4,11 @@ using Sketch.SourceMovement;
 using System;
 using System.IO;
 using System.Reflection;
+using MelonLoader;
 
 namespace SourceMovement.Integrations
 {
-    public static partial class BTKKUIAddon
+    public static partial class BTKUIAddon
     {
         private static Page _rootPage;
         private static string _rootPageElementID;
@@ -26,8 +27,9 @@ namespace SourceMovement.Integrations
 
             QuickMenuAPI.PrepareIcon("Source Movement", "Crowbar", GetIconStream("Crowbar.png"));
 
-            return;
             Stream GetIconStream(string iconName) => assembly.GetManifestResourceStream($"{assemblyName}.Resources.{iconName}");
+            MelonLogger.Msg("BTKUI Tab should be made");
+            return;
         }
 
         private static void SetupSM_ModTab()
@@ -40,7 +42,22 @@ namespace SourceMovement.Integrations
 
             _rootPageElementID = _rootPage.ElementID;
 
+            var category = _rootPage.AddCategory("Source Movement Mod");
+            var toggle = category.AddToggle("Use Source Movement", "Click to toggle source movement", false);
+            toggle.OnValueUpdated += USM =>
+            {
+                if (USM == true)
+                {
+                    Sketch.SourceMovement.SourceMovement.EntryUseSourceMovement.Value = true;
+                }
+                else
+                {
+                    Sketch.SourceMovement.SourceMovement.EntryUseSourceMovement.Value = false;
+                }
+            };
+
             QuickMenuAPI.OnTabChange += OnTabChange;
+            MelonLogger.Msg("BTKUI Tab should be made");
         }
 
         private static DateTime lastTime = DateTime.Now;
@@ -66,11 +83,11 @@ namespace SourceMovement.Integrations
         {
             if (Sketch.SourceMovement.SourceMovement.EntryUseSourceMovement.Value)
             {
-                //Find a way to change the UseSourceMovement setting
+                Sketch.SourceMovement.SourceMovement.EntryUseSourceMovement.Value = false;
             }
             else
             {
-                //Find a way to change the UseSourceMovement setting
+                Sketch.SourceMovement.SourceMovement.EntryUseSourceMovement.Value = true;
             }
         }
     }

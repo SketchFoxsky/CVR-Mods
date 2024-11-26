@@ -21,5 +21,5 @@
     ],
     "downloadlink": "N/A",
     "sourcelink": "https://github.com/SketchFoxsky/CVR-Mods/tree/main/SourceMovement",
-    "changelog": "- Added world restriction via `[DisableStickers]` GameObject (thx Sketch).\n- Added sticker placement preview.\n- Fixed stickers being hit by VR switch shader replacement.\n- Fixed Desktop Sticker placement bind firing when a text field was focused.\n- **This version is not backwards compatible with previous versions over network.**",
+    "changelog":  "Added BTKUI integrations!"
     "embedcolor": "#f61963"

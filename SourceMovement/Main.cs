@@ -3,6 +3,7 @@ using UnityEngine;
 using ABI_RC.Systems.Movement;
 using ABI.CCK.Components;
 using ABI_RC.Systems.GameEventSystem;
+using SourceMovement.Integrations;
 
 
 namespace Sketch.SourceMovement
@@ -56,7 +57,7 @@ namespace Sketch.SourceMovement
             //this can be spammed by world author toggling the gamobject with CVRWorld, needs a fix.
             CVRGameEventSystem.World.OnUnload.AddListener(_ => OnWorldUnload());
             CVRWorld.GameRulesUpdated += OnApplyMovementSettings;
-
+            BTKUIAddon.Initialize();
         }
 
         // Get World Movement Settings, This will also work on runtime with animated CVR World Settings!
