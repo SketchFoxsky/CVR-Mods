@@ -1,25 +1,16 @@
 {
-    "_id": 400,
-    "name": "SourceMovement",
-    "modversion": "1.0.0",
-    "gameversion": "2024r177",
-    "loaderversion": "0.6.1",
-    "modtype": "Mod",
-    "author": "SketchFoxsky",
-    "description": "Toggle the Source Engine movement system in ChilloutVR",
-    "searchtags": [
-        "Source",
-        "Movement",
-        "Half-Life",
-        "Half",
-        "Life",
-        "Bunny",
-        "Hop"
-    ],
-    "requirements": [
-        "None"
-    ],
-    "downloadlink": "https://github.com/SketchFoxsky/CVR-Mods/releases",
-    "sourcelink": "https://github.com/SketchFoxsky/CVR-Mods/tree/main/SourceMovement",
-    "changelog": "Added BTKUI integrations!",
-    "embedcolor": "#f61963"
+  "_id": -1,
+  "name": "Source Movement",
+  "modversion": "1.0.0",
+  "gameversion": "r177",
+  "loaderversion": "0.6.1",
+  "modtype": "Mod",
+  "author": "SketchFoxsky",
+  "description": "Move around like Gordon Freeman, or dont; Up to you",
+  "searchtags": ["Source", "Movement", "Half", "Life", "Bunny", "Hop"],
+  "requirements": null,
+  "downloadlink": "https://github.com/SketchFoxsky/CVR-Mods/releases/download/Releases/SourceMovement.dll",
+  "sourcelink": "https://github.com/SketchFoxsky/CVR-Mods/tree/main/SourceMovement",
+  "changelog": "Added BTKUI integration",
+  "embedcolor": "#246382"
+}
