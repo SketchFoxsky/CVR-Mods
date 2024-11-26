@@ -19,7 +19,7 @@
     "requirements": [
         "None"
     ],
-    "downloadlink": "N/A",
+    "downloadlink": "https://github.com/SketchFoxsky/CVR-Mods/releases",
     "sourcelink": "https://github.com/SketchFoxsky/CVR-Mods/tree/main/SourceMovement",
-    "changelog":  "Added BTKUI integrations!"
+    "changelog": "Added BTKUI integrations!",
     "embedcolor": "#f61963"
