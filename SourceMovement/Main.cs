@@ -24,13 +24,13 @@ namespace Sketch.SourceMovement
         // Original values reference the BBCC value on world load.
         // Falling Speed
         private static float _currentMaxFallSpeed = 40f; //this is curently default.
-        float _OriginalMaxFallSpeed;
+        float _OriginalMaxFallSpeed = 40f;
         private static float _currentLateralFallingFriction = 2f;
-        float _OriginalLateralFallingFriction;
+        float _OriginalLateralFallingFriction = 0f;
 
         //Acceleration and Walking
-        private static float _currentMaxAcceleration = 25f;
-        float _OriginalMaxAcceleration;
+        private static float _currentMaxAcceleration = 15f;
+        float _OriginalMaxAcceleration =25f;
         private static float _currentWalkSpeed = 100f;
         float _OriginalWalkSpeed;
 
@@ -60,8 +60,6 @@ namespace Sketch.SourceMovement
         // Get World Movement Settings, This will also work on runtime with animated CVR World Settings!
         private void OnApplyMovementSettings()
         {
-            _OriginalMaxFallSpeed = BetterBetterCharacterController.Instance.maxFallSpeed;
-            _OriginalLateralFallingFriction = BetterBetterCharacterController.Instance.fallingLateralFriction;
             _OriginalMaxAcceleration = BetterBetterCharacterController.Instance.maxAcceleration;
             _OriginalWalkSpeed = BetterBetterCharacterController.Instance.maxWalkSpeed;
             LoggerInstance.Msg("Original World Movement Settings acquired");
@@ -75,14 +73,16 @@ namespace Sketch.SourceMovement
             // Prevent loading old friction data from another world.
             BetterBetterCharacterController.Instance.groundFriction = _OriginalGroundFriction;
             BetterBetterCharacterController.Instance.brakingDecelerationWalking = _OriginalbrakingDecelerationWalking;
+            LoggerInstance.Msg("Removed Old World movement.");
             _PassedWorldCheck = false;
         }
 
         public override void OnUpdate()
         {
+            if (BetterBetterCharacterController.Instance == null)
+                return;
 
-            if ((BetterBetterCharacterController.Instance == null
-                || !EntryUseSourceMovement.Value
+            if (((!EntryUseSourceMovement.Value)
                 || BetterBetterCharacterController.Instance.IsFlying()
                 || BetterBetterCharacterController.Instance.FlightAllowedInWorld == false
                 || BetterBetterCharacterController.Instance.fallingTime <= 0.01f)
@@ -93,10 +93,10 @@ namespace Sketch.SourceMovement
                 BetterBetterCharacterController.Instance.fallingLateralFriction = _OriginalLateralFallingFriction;
                 BetterBetterCharacterController.Instance.maxFallSpeed = _OriginalMaxFallSpeed;
                 BetterBetterCharacterController.Instance.maxWalkSpeed = _OriginalWalkSpeed;
-                BetterBetterCharacterController.Instance.maxAcceleration = _OriginalMaxAcceleration;
             }
             //Apply Source Movement settings when jumping/falling
-            if (BetterBetterCharacterController.Instance.fallingTime > 0.25f && BetterBetterCharacterController.Instance.FlightAllowedInWorld == true)
+            if ((EntryUseSourceMovement.Value) && BetterBetterCharacterController.Instance.fallingTime > 0.25f
+                && BetterBetterCharacterController.Instance.FlightAllowedInWorld == true)
             {
                 BetterBetterCharacterController.Instance.fallingLateralFriction = _currentLateralFallingFriction;
                 BetterBetterCharacterController.Instance.maxFallSpeed = _currentMaxFallSpeed;
@@ -107,7 +107,8 @@ namespace Sketch.SourceMovement
             }
 
             //Disable Ground constraint when the player is over a certain speed
-            if ((BetterBetterCharacterController.Instance.speed >= 50f) && !BetterBetterCharacterController.Instance.IsGrounded())
+            if ((BetterBetterCharacterController.Instance.speed >= 50f) && !BetterBetterCharacterController.Instance.IsGrounded()
+                && EntryUseSourceMovement.Value)
             {
                 BetterBetterCharacterController.Instance.EnableGroundConstraint(false);
             }
