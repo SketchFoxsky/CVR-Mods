@@ -16,7 +16,7 @@ namespace Sketch.SourceMovement
         private static readonly MelonPreferences_Category Category = MelonPreferences.CreateCategory(SettingsCategory);
 
         private static readonly MelonPreferences_Entry<bool> EntryUseSourceMovement =
-            Category.CreateEntry("Use_source_movement", true, "Use Source Movement", description: "Toggle source movement.");
+            Category.CreateEntry("Use_source_movement", false, "Use Source Movement", description: "Toggle source movement.");
 
         #endregion Melon Loader Preferences
 

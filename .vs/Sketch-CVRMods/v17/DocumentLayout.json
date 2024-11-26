@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{17EAB855-833B-45D1-8B92-CFBFA1BD58DD}|SourceMovement\\SourceMovement.csproj|c:\\users\\leona\\documents\\sketch cvr mods\\cvr-mods\\sourcemovement\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17EAB855-833B-45D1-8B92-CFBFA1BD58DD}|SourceMovement\\SourceMovement.csproj|solutionrelative:sourcemovement\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{17EAB855-833B-45D1-8B92-CFBFA1BD58DD}|SourceMovement\\SourceMovement.csproj|c:\\users\\leona\\documents\\sketch cvr mods\\cvr-mods\\sourcemovement\\format.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{17EAB855-833B-45D1-8B92-CFBFA1BD58DD}|SourceMovement\\SourceMovement.csproj|solutionrelative:sourcemovement\\format.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -13,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{17EAB855-833B-45D1-8B92-CFBFA1BD58DD}|SourceMovement\\SourceMovement.csproj|c:\\users\\leona\\documents\\sketch cvr mods\\cvr-mods\\sourcemovement\\sourcemovement.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{17EAB855-833B-45D1-8B92-CFBFA1BD58DD}|SourceMovement\\SourceMovement.csproj|solutionrelative:sourcemovement\\sourcemovement.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17EAB855-833B-45D1-8B92-CFBFA1BD58DD}|SourceMovement\\SourceMovement.csproj|c:\\users\\leona\\documents\\sketch cvr mods\\cvr-mods\\sourcemovement\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17EAB855-833B-45D1-8B92-CFBFA1BD58DD}|SourceMovement\\SourceMovement.csproj|solutionrelative:sourcemovement\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{17EAB855-833B-45D1-8B92-CFBFA1BD58DD}|SourceMovement\\SourceMovement.csproj|c:\\users\\leona\\documents\\sketch cvr mods\\cvr-mods\\sourcemovement\\sourcemovement.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
@@ -30,11 +30,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "format.json",
               "DocumentMoniker": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\SourceMovement\\format.json",
               "RelativeDocumentMoniker": "SourceMovement\\format.json",
@@ -54,12 +54,11 @@
               "ToolTip": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\SourceMovement\\SourceMovement.csproj",
               "RelativeToolTip": "SourceMovement\\SourceMovement.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-25T20:38:44.286Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-25T20:38:44.286Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "SourceMovement.csproj",
               "DocumentMoniker": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\SourceMovement\\SourceMovement.csproj",
               "RelativeDocumentMoniker": "SourceMovement\\SourceMovement.csproj",
@@ -67,12 +66,11 @@
               "RelativeToolTip": "SourceMovement\\SourceMovement.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAEUDAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-25T04:32:32.383Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-25T04:32:32.383Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "AssemblyInfo.cs",
               "DocumentMoniker": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\SourceMovement\\Properties\\AssemblyInfo.cs",
               "RelativeDocumentMoniker": "SourceMovement\\Properties\\AssemblyInfo.cs",
@@ -80,18 +78,17 @@
               "RelativeToolTip": "SourceMovement\\Properties\\AssemblyInfo.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T04:21:34.676Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-25T04:21:34.676Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Main.cs",
               "DocumentMoniker": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\SourceMovement\\Main.cs",
               "RelativeDocumentMoniker": "SourceMovement\\Main.cs",
               "ToolTip": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\SourceMovement\\Main.cs",
               "RelativeToolTip": "SourceMovement\\Main.cs",
-              "ViewState": "AQIAADkAAAAAAAAAAAAAAG8AAABUAAAA",
+              "ViewState": "AQIAABcAAAAAAAAAAAAAABgAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-25T04:18:39.71Z",
               "EditorCaption": ""
