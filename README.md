@@ -11,4 +11,4 @@ A collection of my mods made for ChilloutVR
 | Hex Reticle| UI| N/A | N/A | Swap that orange square to a nice Hexagon!|
 ---
 
-This is the part where I tell you to use mods at our own risk and any releases that have not been pushed to the CVRMelonAssistant is not approved by the CVR Modding Group.
+This is the part where I tell you to use mods at our own risk and any releases that have not been pushed to the CVRMelonAssistant are not approved by the CVR Modding Group.
