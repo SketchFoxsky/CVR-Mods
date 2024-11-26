@@ -1,0 +1,25 @@
+{
+    "_id": 400,
+    "name": "SourceMovement",
+    "modversion": "1.0.0",
+    "gameversion": "2024r177",
+    "loaderversion": "0.6.1",
+    "modtype": "Mod",
+    "author": "SketchFoxsky",
+    "description": "Toggle the Source Engine movement system in ChilloutVR",
+    "searchtags": [
+        "Source",
+        "Movement",
+        "Half-Life",
+        "Half",
+        "Life",
+        "Bunny",
+        "Hop"
+    ],
+    "requirements": [
+        "None"
+    ],
+    "downloadlink": "N/A",
+    "sourcelink": "https://github.com/SketchFoxsky/CVR-Mods/tree/main/SourceMovement",
+    "changelog": "- Added world restriction via `[DisableStickers]` GameObject (thx Sketch).\n- Added sticker placement preview.\n- Fixed stickers being hit by VR switch shader replacement.\n- Fixed Desktop Sticker placement bind firing when a text field was focused.\n- **This version is not backwards compatible with previous versions over network.**",
+    "embedcolor": "#f61963"

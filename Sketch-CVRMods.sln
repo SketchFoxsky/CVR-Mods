@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SourceMovement", "SourceMovement\SourceMovement.csproj", "{17EAB855-833B-45D1-8B92-CFBFA1BD58DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SourceMovement", "SourceMovement\SourceMovement.csproj", "{17EAB855-833B-45D1-8B92-CFBFA1BD58DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HexRetacle", "HexRetacle\HexRetacle.csproj", "{E60C7959-0555-40D5-90B9-DE3E4174BBC2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{17EAB855-833B-45D1-8B92-CFBFA1BD58DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17EAB855-833B-45D1-8B92-CFBFA1BD58DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17EAB855-833B-45D1-8B92-CFBFA1BD58DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E60C7959-0555-40D5-90B9-DE3E4174BBC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E60C7959-0555-40D5-90B9-DE3E4174BBC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E60C7959-0555-40D5-90B9-DE3E4174BBC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E60C7959-0555-40D5-90B9-DE3E4174BBC2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

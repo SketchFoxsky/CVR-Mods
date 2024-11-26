@@ -346,3 +346,8 @@
 .ManagedLibs/UnityEngine.XRModule.dll
 .ManagedLibs/Valve.Newtonsoft.Json.dll
 .ManagedLibs/websocket-sharp.dll
+SourceMovement/obj/Debug/netstandard2.1/SourceMovement.sourcelink.json
+SourceMovement/obj/Debug/netstandard2.1/SourceMovement.pdb
+/SourceMovement/obj
+/SourceMovement/obj
+/HexRetacle/obj
