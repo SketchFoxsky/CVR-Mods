@@ -3,6 +3,11 @@
 		<TargetFramework>netstandard2.1</TargetFramework>
 		<BaseOutputPath>C:\Users\leona\Documents\Sketch CVR Mods\Builds</BaseOutputPath>
 	</PropertyGroup>
+	<ItemGroup>
+	  <Compile Remove="Resources\Gohsantosadrive_Icons\**" />
+	  <EmbeddedResource Remove="Resources\Gohsantosadrive_Icons\**" />
+	  <None Remove="Resources\Gohsantosadrive_Icons\**" />
+	</ItemGroup>
 
 	<ItemGroup>
 		<Reference Include="Assembly-CSharp-firstpass">
@@ -833,10 +838,11 @@
 			<HintPath>E:\SteamLibrary\steamapps\common\ChilloutVR\MelonLoader\net35\0Harmony.dll</HintPath>
 			<Private>False</Private>
 		</Reference>
-
-	</ItemGroup>
-
-	<ItemGroup>
-	  <Folder Include="Integrations\BTKUI\" />
+		<Reference Include="BTKUILib">
+			<Hintpath>E:\SteamLibrary\steamapps\common\ChilloutVR\Mods\BTKUILib.dll</Hintpath>
+			<Private>False</Private>
+		</Reference>
+		<None Remove="Resources\Crowbar.png" />
+		<EmbeddedResource Include="Resources\Crowbar.png" />
 	</ItemGroup>
 </Project>
