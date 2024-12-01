@@ -358,3 +358,7 @@ SourceMovement/obj/Debug/netstandard2.1/SourceMovement.pdb
 /.vs
 /.vs
 /.vs
+NStrip.exe
+/.ManagedLibs
+/HexReticle/bin
+/HexReticle/obj

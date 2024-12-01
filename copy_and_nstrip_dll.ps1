@@ -6,7 +6,7 @@ $cvrManagedDataPath = "\ChilloutVR_Data\Managed"
 
 $cvrPath = $env:CVRPATH
 $cvrExecutable = "ChilloutVR.exe"
-$cvrDefaultPath = "C:\Program Files (x86)\Steam\steamapps\common\ChilloutVR"
+$cvrDefaultPath = "E:\SteamLibrary\steamapps\common\ChilloutVR"
 # $cvrDefaultPath = "E:\temp\CVR_Experimental"
 
 # Array with the dlls to strip
