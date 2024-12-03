@@ -1,0 +1,16 @@
+{
+  "_id": -1,
+  "name": "HexReticle",
+  "modversion": "1.0.0",
+  "gameversion": "r177",
+  "loaderversion": "0.6.1",
+  "modtype": "Mod",
+  "author": "SketchFoxsky",
+  "description": "Replace that annoying orange box with a nice Hexagon",
+  "searchtags": ["UI", "Reticle", "Swap"],
+  "requirements": null,
+  "downloadlink": "https://github.com/SketchFoxsky/CVR-Mods/releases/download/Releases/HexReticle.dll",
+  "sourcelink": "https://github.com/SketchFoxsky/CVR-Mods/tree/main/HexReticle",
+  "changelog": "Initial Release",
+  "embedcolor": "#246382"
+}

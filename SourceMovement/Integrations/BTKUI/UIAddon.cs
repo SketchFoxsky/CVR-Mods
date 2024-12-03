@@ -43,8 +43,8 @@ namespace SourceMovement.Integrations
             _rootPageElementID = _rootPage.ElementID;
 
             var category = _rootPage.AddCategory("Source Movement Mod");
-            var toggle = category.AddToggle("Use Source Movement", "Click to toggle source movement", false);
-            toggle.OnValueUpdated += USM =>
+            var USMtoggle = category.AddToggle("Use Source Movement", "Click to toggle source movement", (Sketch.SourceMovement.SourceMovement.EntryUseSourceMovement.Value));
+            USMtoggle.OnValueUpdated += USM =>
             {
                 if (USM == true)
                 {
@@ -53,6 +53,19 @@ namespace SourceMovement.Integrations
                 else
                 {
                     Sketch.SourceMovement.SourceMovement.EntryUseSourceMovement.Value = false;
+                }
+            };
+            
+            var UDTtoggle = category.AddToggle("Use Double Tap", "Double tap the crowbar to toggle Source Movement", (Sketch.SourceMovement.SourceMovement.UseDoubleClickTab.Value));
+            UDTtoggle.OnValueUpdated += UDT =>
+            {
+                if (UDT == true)
+                {
+                    Sketch.SourceMovement.SourceMovement.UseDoubleClickTab.Value = true;
+                }
+                else
+                {
+                    Sketch.SourceMovement.SourceMovement.UseDoubleClickTab.Value = false;
                 }
             };
 

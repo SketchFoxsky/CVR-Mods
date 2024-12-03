@@ -18,8 +18,8 @@ namespace Sketch.SourceMovement
 
         internal static MelonPreferences_Entry<bool> EntryUseSourceMovement =
             Category.CreateEntry("Use_source_movement", false, "Use Source Movement", description: "Toggle source movement.");
-        internal static readonly MelonPreferences_Entry<bool> UseDoubleClickTab =
-            Category.CreateEntry("Use_DoubleClick", false, "Use Double Click Tab", description: "Allows double clicking Crowbar Icon to toggle the  Use Source Movement' setting");
+        internal static MelonPreferences_Entry<bool> UseDoubleClickTab =
+            Category.CreateEntry("Use_DoubleClick", true, "Use Double Click Tab", description: "Allows double clicking Crowbar Icon to toggle the  Use Source Movement' setting");
 
         #endregion Melon Loader Preferences
 
