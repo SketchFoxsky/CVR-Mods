@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{67E521F7-C85A-449F-A411-84BA9DD8BD1D}|HexReticle\\HexReticle.csproj|c:\\users\\leona\\documents\\sketch cvr mods\\cvr-mods\\hexreticle\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{67E521F7-C85A-449F-A411-84BA9DD8BD1D}|HexReticle\\HexReticle.csproj|solutionrelative:hexreticle\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{17EAB855-833B-45D1-8B92-CFBFA1BD58DD}|SourceMovement\\SourceMovement.csproj|c:\\users\\leona\\documents\\sketch cvr mods\\cvr-mods\\sourcemovement\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17EAB855-833B-45D1-8B92-CFBFA1BD58DD}|SourceMovement\\SourceMovement.csproj|solutionrelative:sourcemovement\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{67E521F7-C85A-449F-A411-84BA9DD8BD1D}|HexReticle\\HexReticle.csproj|c:\\users\\leona\\documents\\sketch cvr mods\\cvr-mods\\hexreticle\\hexreticle.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{67E521F7-C85A-449F-A411-84BA9DD8BD1D}|HexReticle\\HexReticle.csproj|solutionrelative:hexreticle\\hexreticle.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{17EAB855-833B-45D1-8B92-CFBFA1BD58DD}|SourceMovement\\SourceMovement.csproj|c:\\users\\leona\\documents\\sketch cvr mods\\cvr-mods\\sourcemovement\\integrations\\btkui\\uiaddon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17EAB855-833B-45D1-8B92-CFBFA1BD58DD}|SourceMovement\\SourceMovement.csproj|solutionrelative:sourcemovement\\integrations\\btkui\\uiaddon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,26 +24,26 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Main.cs",
-              "DocumentMoniker": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\HexReticle\\Main.cs",
-              "RelativeDocumentMoniker": "HexReticle\\Main.cs",
-              "ToolTip": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\HexReticle\\Main.cs",
-              "RelativeToolTip": "HexReticle\\Main.cs",
-              "ViewState": "AQIAAIcAAAAAAAAAAAAAAJcAAABLAAAA",
+              "DocumentMoniker": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\SourceMovement\\Main.cs",
+              "RelativeDocumentMoniker": "SourceMovement\\Main.cs",
+              "ToolTip": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\SourceMovement\\Main.cs",
+              "RelativeToolTip": "SourceMovement\\Main.cs",
+              "ViewState": "AQIAAFwAAAAAAAAAAAAAAHEAAABsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T20:52:51.38Z",
+              "WhenOpened": "2024-12-06T22:01:50.574Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "HexReticle.csproj",
-              "DocumentMoniker": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\HexReticle\\HexReticle.csproj",
-              "RelativeDocumentMoniker": "HexReticle\\HexReticle.csproj",
-              "ToolTip": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\HexReticle\\HexReticle.csproj",
-              "RelativeToolTip": "HexReticle\\HexReticle.csproj",
-              "ViewState": "AQIAAD4DAAAAAAAAAAAiwEYDAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-30T20:50:19.47Z",
+              "Title": "UIAddon.cs",
+              "DocumentMoniker": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\SourceMovement\\Integrations\\BTKUI\\UIAddon.cs",
+              "RelativeDocumentMoniker": "SourceMovement\\Integrations\\BTKUI\\UIAddon.cs",
+              "ToolTip": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\SourceMovement\\Integrations\\BTKUI\\UIAddon.cs",
+              "RelativeToolTip": "SourceMovement\\Integrations\\BTKUI\\UIAddon.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T22:34:57.288Z",
               "EditorCaption": ""
             }
           ]

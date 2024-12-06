@@ -110,8 +110,8 @@ namespace Sketch.SourceMovement
             }
 
             //Disable Ground constraint when the player is over a certain speed
-            if ((BetterBetterCharacterController.Instance.speed >= 50f) && !BetterBetterCharacterController.Instance.IsGrounded()
-                && EntryUseSourceMovement.Value)
+            if (((BetterBetterCharacterController.Instance.speed >= 50f) && !BetterBetterCharacterController.Instance.IsGrounded()
+                && EntryUseSourceMovement.Value) || (BetterBetterCharacterController.Instance.IsSwimming()))
             {
                 BetterBetterCharacterController.Instance.EnableGroundConstraint(false);
             }
