@@ -1,0 +1,16 @@
+{
+  "_id": -1,
+  "name": "PVPMod",
+  "modversion": "1.0.0",
+  "gameversion": "r177",
+  "loaderversion": "0.6.1",
+  "modtype": "Mod",
+  "author": "SketchFoxsky",
+  "description": "Fight the people around you!",
+  "searchtags": ["PVP", "Combat", "Damage", "Fight" ],
+  "requirements": null,
+  "downloadlink": "https://github.com/SketchFoxsky/CVR-Mods/releases/download/Releases/PVPMod.dll",
+  "sourcelink": "https://github.com/SketchFoxsky/CVR-Mods/tree/main/PVPMod",
+  "changelog": "Initial release",
+  "embedcolor": "#246382"
+}
