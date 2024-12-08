@@ -16,7 +16,6 @@ namespace Sketch.PVPMod
         private static string PVPBundleName = "pvpmod.assetbundle";
         private static string PVPPrefab = "Assets/PVPMOD/PVP Mod Prefab.prefab";
         private GameObject _pvpprefab;
-        private UnityEngine.Object _WorldCombat;
         public GameObject PVPModHud;
         private Vector3 PlayerVRCam;
         private Vector3 PlayerDesktopCam;
@@ -83,10 +82,8 @@ namespace Sketch.PVPMod
             propWhitelist.Add(typeof(Damage));
 #endregion PropWhitelisting
 
-            CVRGameEventSystem.World.OnUnload.AddListener(_ => OnWorldUnload());
-            CVRGameEventSystem.World.OnLoad.AddListener(_ => OnWorldload());
+            CVRGameEventSystem.Instance.OnConnected.AddListener(_ => OnConnected());
             CVRGameEventSystem.Initialization.OnPlayerSetupStart.AddListener(OnPlayerSetup);
-            CVRWorld.GameRulesUpdated += OnApplyMovementSettings;
             BTKUIAddon.Initialize();
         }
 
@@ -94,29 +91,14 @@ namespace Sketch.PVPMod
         {
             ThirdPersonCam = GameObject.Find("[CameraRigDesktop]/Camera/ThirdPersonCameraObj");
         }
-        public void OnWorldload()
+        public void OnConnected()
         {
-            _WorldCombat = UnityEngine.Object.FindObjectOfType(typeof(CombatSystem));
-        }
-        public void OnWorldUnload()
-        {
-            _WorldCombat = null;
-        }
+            if (BetterBetterCharacterController.Instance == null)
+                return;
 
-        //When Movement Settings are changed try to spawn the PVP prefab
-        //This is because Movement is updated AFTER world loads, which means flight checks CANNOT be done during world load.
-        public void OnApplyMovementSettings()
-        {
-            SpawnPVP();
-        }
+            var _WorldCombat = UnityEngine.Object.FindObjectOfType(typeof(CombatSystem));
 
-        // Due to the BBCC updating AFTER world load, we do flight check here when the PVP mod tries to spawn its prefab.
-        // This will also check if it spawned itself incase the CVRWorld item is toggled on and off updating its movment settings.
-        public void SpawnPVP()
-        {
-            var PVP = GameObject.Find("PVP Mod Prefab(Clone)");
-            if ((_WorldCombat == null) && (BetterBetterCharacterController.Instance.FlightAllowedInWorld == true) && (EnablePVP.Value == true)
-                && (PVP == null))
+            if ((_WorldCombat == null) && (BetterBetterCharacterController.Instance.FlightAllowedInWorld == true) && (EnablePVP.Value == true))
             {
                 GameObject.Instantiate(_pvpprefab);
                 LoggerInstance.Msg("PVP Prefab has been spawned in.");
@@ -126,7 +108,7 @@ namespace Sketch.PVPMod
             {
                 if (_WorldCombat != null)
                 {
-                    LoggerInstance.Msg("World already has combat, not spawning PVP prefab.");
+                    LoggerInstance.Msg("World already has combat system, not spawning PVP prefab.");
                 }
                 if (BetterBetterCharacterController.Instance.FlightAllowedInWorld == false)
                 {
@@ -137,15 +119,30 @@ namespace Sketch.PVPMod
                     LoggerInstance.Msg("PVP Mod is currently Disabled.");
                 }
             }
-        }       
+        }
+
+        // Due to the BBCC updating AFTER world load, we do flight check here when the PVP mod tries to spawn its prefab.
+        // This will also check if it spawned itself incase the CVRWorld item is toggled on and off updating its movment settings.     
 
         public override void OnUpdate()
         {
             if (GameObject.Find("PVP Mod Prefab(Clone)") != null)
             {
-                var ModdedCombatSystem = (GameObject.Find("PVP Mod Prefab(Clone)"));
-                ModdedCombatSystem.SetActive(EnablePVP.Value);
+                // Disable/Enable the combat system and damage components.
+                // as of r177 Damage components will still cause damage when disabled. Otherwise this works.
+                var ModdedCombatSystem = GameObject.Find("PVP Mod Prefab(Clone)");
+                if (ModdedCombatSystem != null)
+                {
+                    ModdedCombatSystem.SetActive(EnablePVP.Value);
+                    var DamageObjects = UnityEngine.Object.FindObjectsOfType<Damage>(true);
+                    foreach (var damagecomponent in DamageObjects)
+                    {
+                        damagecomponent.enabled = EnablePVP.Value;
+                        //DEBUG LoggerInstance.Msg($"Set this damage component to {EnablePVP.Value}");
+                    }
+                }
             }
+
             if (PVPModHud != null)
             {
                 //Keep the PVP mod Hud on the player

@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CEA5A613-1461-423C-8242-8FEDAE7376FF}|PVPMod\\PVPMod.csproj|c:\\users\\leona\\documents\\sketch cvr mods\\cvr-mods\\pvpmod\\pvpmod.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{CEA5A613-1461-423C-8242-8FEDAE7376FF}|PVPMod\\PVPMod.csproj|solutionrelative:pvpmod\\pvpmod.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{17EAB855-833B-45D1-8B92-CFBFA1BD58DD}|SourceMovement\\SourceMovement.csproj|c:\\users\\leona\\documents\\sketch cvr mods\\cvr-mods\\sourcemovement\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17EAB855-833B-45D1-8B92-CFBFA1BD58DD}|SourceMovement\\SourceMovement.csproj|solutionrelative:sourcemovement\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CEA5A613-1461-423C-8242-8FEDAE7376FF}|PVPMod\\PVPMod.csproj|c:\\users\\leona\\documents\\sketch cvr mods\\cvr-mods\\pvpmod\\integrations\\btkui\\uiaddon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CEA5A613-1461-423C-8242-8FEDAE7376FF}|PVPMod\\PVPMod.csproj|solutionrelative:pvpmod\\integrations\\btkui\\uiaddon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CEA5A613-1461-423C-8242-8FEDAE7376FF}|PVPMod\\PVPMod.csproj|c:\\users\\leona\\documents\\sketch cvr mods\\cvr-mods\\pvpmod\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEA5A613-1461-423C-8242-8FEDAE7376FF}|PVPMod\\PVPMod.csproj|solutionrelative:pvpmod\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17EAB855-833B-45D1-8B92-CFBFA1BD58DD}|SourceMovement\\SourceMovement.csproj|c:\\users\\leona\\documents\\sketch cvr mods\\cvr-mods\\sourcemovement\\integrations\\btkui\\uiaddon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17EAB855-833B-45D1-8B92-CFBFA1BD58DD}|SourceMovement\\SourceMovement.csproj|solutionrelative:sourcemovement\\integrations\\btkui\\uiaddon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{67E521F7-C85A-449F-A411-84BA9DD8BD1D}|HexReticle\\HexReticle.csproj|c:\\users\\leona\\documents\\sketch cvr mods\\cvr-mods\\hexreticle\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67E521F7-C85A-449F-A411-84BA9DD8BD1D}|HexReticle\\HexReticle.csproj|solutionrelative:hexreticle\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CEA5A613-1461-423C-8242-8FEDAE7376FF}|PVPMod\\PVPMod.csproj|c:\\users\\leona\\documents\\sketch cvr mods\\cvr-mods\\pvpmod\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,6 +21,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{17EAB855-833B-45D1-8B92-CFBFA1BD58DD}|SourceMovement\\SourceMovement.csproj|c:\\users\\leona\\documents\\sketch cvr mods\\cvr-mods\\sourcemovement\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{17EAB855-833B-45D1-8B92-CFBFA1BD58DD}|SourceMovement\\SourceMovement.csproj|solutionrelative:sourcemovement\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEA5A613-1461-423C-8242-8FEDAE7376FF}|PVPMod\\PVPMod.csproj|c:\\users\\leona\\documents\\sketch cvr mods\\cvr-mods\\pvpmod\\integrations\\btkui\\uiaddon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEA5A613-1461-423C-8242-8FEDAE7376FF}|PVPMod\\PVPMod.csproj|solutionrelative:pvpmod\\integrations\\btkui\\uiaddon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEA5A613-1461-423C-8242-8FEDAE7376FF}|PVPMod\\PVPMod.csproj|c:\\users\\leona\\documents\\sketch cvr mods\\cvr-mods\\pvpmod\\pvpmod.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CEA5A613-1461-423C-8242-8FEDAE7376FF}|PVPMod\\PVPMod.csproj|solutionrelative:pvpmod\\pvpmod.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,19 +38,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UIAddon.cs",
-              "DocumentMoniker": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\SourceMovement\\Integrations\\BTKUI\\UIAddon.cs",
-              "RelativeDocumentMoniker": "SourceMovement\\Integrations\\BTKUI\\UIAddon.cs",
-              "ToolTip": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\SourceMovement\\Integrations\\BTKUI\\UIAddon.cs",
-              "RelativeToolTip": "SourceMovement\\Integrations\\BTKUI\\UIAddon.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\SourceMovement\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "SourceMovement\\Properties\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\SourceMovement\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "SourceMovement\\Properties\\AssemblyInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T02:55:04.498Z",
+              "WhenOpened": "2024-12-08T19:02:32.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\PVPMod\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "PVPMod\\Properties\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\PVPMod\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "PVPMod\\Properties\\AssemblyInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T19:02:19.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\HexReticle\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "HexReticle\\Properties\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\HexReticle\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "HexReticle\\Properties\\AssemblyInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T19:02:04.028Z",
               "EditorCaption": ""
             },
             {
@@ -53,9 +87,9 @@
               "RelativeDocumentMoniker": "SourceMovement\\Main.cs",
               "ToolTip": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\SourceMovement\\Main.cs",
               "RelativeToolTip": "SourceMovement\\Main.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADsAAAAMAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T02:39:53.503Z",
+              "WhenOpened": "2024-12-08T18:06:48.414Z",
               "EditorCaption": ""
             },
             {
@@ -66,36 +100,35 @@
               "RelativeDocumentMoniker": "PVPMod\\Main.cs",
               "ToolTip": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\PVPMod\\Main.cs",
               "RelativeToolTip": "PVPMod\\Main.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFkAAAAkAAAA",
+              "ViewState": "AQIAAHAAAAAAAAAAAAAAAH4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-08T02:17:39.142Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "UIAddon.cs",
               "DocumentMoniker": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\PVPMod\\Integrations\\BTKUI\\UIAddon.cs",
               "RelativeDocumentMoniker": "PVPMod\\Integrations\\BTKUI\\UIAddon.cs",
               "ToolTip": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\PVPMod\\Integrations\\BTKUI\\UIAddon.cs",
               "RelativeToolTip": "PVPMod\\Integrations\\BTKUI\\UIAddon.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABsAAAAAAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAADAAAABNAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-08T02:05:11.427Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PVPMod",
+              "DocumentIndex": 6,
+              "Title": "PVPMod.csproj",
               "DocumentMoniker": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\PVPMod\\PVPMod.csproj",
               "RelativeDocumentMoniker": "PVPMod\\PVPMod.csproj",
               "ToolTip": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\PVPMod\\PVPMod.csproj",
               "RelativeToolTip": "PVPMod\\PVPMod.csproj",
               "ViewState": "AQIAAHYCAAAAAAAAAAAiwIYCAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-08T02:04:18.119Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-08T02:04:18.119Z"
             }
           ]
         }
