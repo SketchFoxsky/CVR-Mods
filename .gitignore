@@ -362,3 +362,6 @@ NStrip.exe
 /.ManagedLibs
 /HexReticle/bin
 /HexReticle/obj
+/PVPMod/bin
+/CinematicThirdPerson/obj
+/PVPMod/obj
