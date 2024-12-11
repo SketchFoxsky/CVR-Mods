@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HexReticle", "HexReticle\He
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CinematicThirdPerson", "CinematicThirdPerson\CinematicThirdPerson.csproj", "{52ECCA3B-EC0F-427A-B59A-265121B3E8E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PVPMod", "PVPMod\PVPMod.csproj", "{CEA5A613-1461-423C-8242-8FEDAE7376FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PVPMod", "PVPMod\PVPMod.csproj", "{CEA5A613-1461-423C-8242-8FEDAE7376FF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

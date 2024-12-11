@@ -5,11 +5,19 @@ using HarmonyLib;
 using ABI_RC.Core.InteractionSystem;
 using ABI_RC.Core.Player;
 using ABI_RC.Core.UI;
+using ABI_RC.Systems.GameEventSystem;
 
 namespace Sketch.HexReticle
 {
     public class HexReticle : MelonMod
     {
+        // Throwing Reticle Info
+        public Image ThrowReticle;
+        public float throwfill;
+        private float ThrowStart = 0.1f;
+        public float _Time = 0f;
+        public float elapsedTime;
+
         //asset bundle info
         private static Sprite _hexagonempty;
         private static Sprite _hexagonfilled;
@@ -91,6 +99,7 @@ namespace Sketch.HexReticle
             }
             #endregion AssetBundle
             ApplyPatches(typeof(ControllerRay_Patches));
+            CVRGameEventSystem.Initialization.OnPlayerSetupStart.AddListener(OnPlayerSetup);
         }
 
         private void ApplyPatches(Type type)
@@ -103,6 +112,31 @@ namespace Sketch.HexReticle
             {
                 LoggerInstance.Msg($"Failed while patching {type.Name}!");
                 LoggerInstance.Error(e);
+            }
+        }
+
+        private void OnPlayerSetup()
+        {
+            GameObject Crosshair;
+            Crosshair = GameObject.Find("_PLAYERLOCAL/[CameraRigDesktop]/Camera/Canvas/Image");
+            if (Crosshair == null)
+            {
+                LoggerInstance.Msg($"The reticle is null");
+            }
+            else
+            {
+                var CrosshairPos = Crosshair.transform;
+                GameObject.Instantiate(Crosshair, CrosshairPos);
+                var ThrowMeter = GameObject.Find("_PLAYERLOCAL/[CameraRigDesktop]/Camera/Canvas/Image/Image(Clone)");
+                ThrowReticle = ThrowMeter.GetComponent<Image>();
+                var throwcolor = ThrowReticle.GetComponent<Graphic>();
+
+                ThrowReticle.sprite = _hexagonempty;
+                ThrowReticle.type = Image.Type.Filled;
+                throwcolor.color = new Color32(255, 255, 255, 45);
+                ThrowReticle.material = _hexagonMaterial;
+                ThrowMeter.transform.localScale = new Vector3(1.5f, 1.5f, 1.5f);
+                ThrowReticle.fillAmount = 0f;
             }
         }
 
@@ -181,5 +215,31 @@ namespace Sketch.HexReticle
         }
 
         #endregion Patches
+
+        public override void OnUpdate()
+        {
+            if (ThrowReticle != null)
+            {
+                if (Input.GetKey(KeyCode.G))
+                {
+                    _Time = _Time + Time.deltaTime;
+                    if (_Time > ThrowStart)
+                    {
+                        elapsedTime += Time.deltaTime;
+                        float percentage = (elapsedTime / 1.9f);
+                        throwfill = Mathf.Lerp(ThrowStart, 1f, percentage);
+                        ThrowReticle.fillAmount = throwfill;
+                    }
+                }
+                else
+                {
+                    _Time = 0f;
+                    elapsedTime = 0f;
+                    throwfill = 0f;
+                    ThrowReticle.fillAmount = throwfill;
+                }
+            }
+
+        }
     }
 }
