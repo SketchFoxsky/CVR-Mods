@@ -1,6 +1,10 @@
 ## Physic Sounds
 Add this component to the gameobject with the collider component for your physics item.
 
+## UI
+![image](https://github.com/user-attachments/assets/bf0d1c7d-bff7-4ac1-bb55-1846cfac6be2)
+
+
 ### Properties
 
 #### Audio Source Reference
