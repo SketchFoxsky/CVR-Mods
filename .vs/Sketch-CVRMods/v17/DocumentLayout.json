@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{67E521F7-C85A-449F-A411-84BA9DD8BD1D}|HexReticle\\HexReticle.csproj|c:\\users\\leona\\documents\\sketch cvr mods\\cvr-mods\\hexreticle\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{67E521F7-C85A-449F-A411-84BA9DD8BD1D}|HexReticle\\HexReticle.csproj|solutionrelative:hexreticle\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{063CD98D-9094-437C-8C49-B40E3B9FAB3A}|PhysicSounds\\PhysicSounds.csproj|c:\\users\\leona\\documents\\sketch cvr mods\\cvr-mods\\physicsounds\\physicsound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{063CD98D-9094-437C-8C49-B40E3B9FAB3A}|PhysicSounds\\PhysicSounds.csproj|solutionrelative:physicsounds\\physicsound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17EAB855-833B-45D1-8B92-CFBFA1BD58DD}|SourceMovement\\SourceMovement.csproj|c:\\users\\leona\\documents\\sketch cvr mods\\cvr-mods\\sourcemovement\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17EAB855-833B-45D1-8B92-CFBFA1BD58DD}|SourceMovement\\SourceMovement.csproj|solutionrelative:sourcemovement\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{063CD98D-9094-437C-8C49-B40E3B9FAB3A}|PhysicSounds\\PhysicSounds.csproj|c:\\users\\leona\\documents\\sketch cvr mods\\cvr-mods\\physicsounds\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{063CD98D-9094-437C-8C49-B40E3B9FAB3A}|PhysicSounds\\PhysicSounds.csproj|solutionrelative:physicsounds\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{063CD98D-9094-437C-8C49-B40E3B9FAB3A}|PhysicSounds\\PhysicSounds.csproj|c:\\users\\leona\\documents\\sketch cvr mods\\cvr-mods\\physicsounds\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{063CD98D-9094-437C-8C49-B40E3B9FAB3A}|PhysicSounds\\PhysicSounds.csproj|solutionrelative:physicsounds\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,27 +26,41 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Main.cs",
-              "DocumentMoniker": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\SourceMovement\\Main.cs",
-              "RelativeDocumentMoniker": "SourceMovement\\Main.cs",
-              "ToolTip": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\SourceMovement\\Main.cs",
-              "RelativeToolTip": "SourceMovement\\Main.cs",
-              "ViewState": "AQIAADUAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "DocumentIndex": 2,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\PhysicSounds\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "PhysicSounds\\Properties\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\PhysicSounds\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "PhysicSounds\\Properties\\AssemblyInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T20:08:43.823Z"
+              "WhenOpened": "2024-12-12T04:34:22.528Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Main.cs",
-              "DocumentMoniker": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\HexReticle\\Main.cs",
-              "RelativeDocumentMoniker": "HexReticle\\Main.cs",
-              "ToolTip": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\HexReticle\\Main.cs",
-              "RelativeToolTip": "HexReticle\\Main.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAOgAAAARAAAA",
+              "Title": "PhysicSound.cs",
+              "DocumentMoniker": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\PhysicSounds\\PhysicSound.cs",
+              "RelativeDocumentMoniker": "PhysicSounds\\PhysicSound.cs",
+              "ToolTip": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\PhysicSounds\\PhysicSound.cs",
+              "RelativeToolTip": "PhysicSounds\\PhysicSound.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACUAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T20:03:21.717Z",
+              "WhenOpened": "2024-12-12T04:29:04.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Main.cs",
+              "DocumentMoniker": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\PhysicSounds\\Main.cs",
+              "RelativeDocumentMoniker": "PhysicSounds\\Main.cs",
+              "ToolTip": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\PhysicSounds\\Main.cs",
+              "RelativeToolTip": "PhysicSounds\\Main.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T04:28:12.683Z",
               "EditorCaption": ""
             }
           ]
