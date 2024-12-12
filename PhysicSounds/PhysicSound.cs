@@ -20,21 +20,21 @@ namespace Sketch.PhysicSounds
             if ((ColMag >= 0.1f) && (ColMag <= 4.9))
             {
                 var clip = MinCollisionAudio[UnityEngine.Random.Range(0, MinCollisionAudio.Length)];
-                Debug.Log("Small");
+                //Debug.Log("Small");
                 AudioSourceReference.clip = clip;
                 AudioSourceReference.Play();
             }
             if ((ColMag >= 5f) && (ColMag <= 10))
             {
                 var clip = MiddleCollisionAudio[UnityEngine.Random.Range(0, MinCollisionAudio.Length)];
-                Debug.Log("Mid");
+                //Debug.Log("Mid");
                 AudioSourceReference.clip = clip;
                 AudioSourceReference.Play();
             }
             if (ColMag >= 10.01f)
             {
                 var clip = MaxCollisionAudio[UnityEngine.Random.Range(0, MinCollisionAudio.Length)];
-                Debug.Log("Large");
+                //Debug.Log("Large");
                 AudioSourceReference.clip = clip;
                 AudioSourceReference.Play();
             }
