@@ -2,14 +2,18 @@
 Add this component to the gameobject with the collider component for your physics item.
 
 ## UI
-![image](https://github.com/user-attachments/assets/bf0d1c7d-bff7-4ac1-bb55-1846cfac6be2)
+![image](https://github.com/user-attachments/assets/f0436138-a181-426f-9e9f-6090b7d8df74)
 
 
-### Properties
+
+## Properties
 
 #### Audio Source Reference
 - This audio source is required and will be the settings for the audio clips.
 
+#### Use Random Pitch
+- Enables/Disables pitch variance.
+  
 #### Min Collision Audio
 - An array of audio clips randomly selected for the minimum collision audio.
 
