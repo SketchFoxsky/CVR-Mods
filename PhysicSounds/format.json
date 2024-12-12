@@ -1,0 +1,16 @@
+{
+  "_id": -1,
+  "name": "PhysicSounds",
+  "modversion": "1.0.0",
+  "gameversion": "r177",
+  "loaderversion": "0.6.1",
+  "modtype": "Mod",
+  "author": "SketchFoxsky",
+  "description": "Using a Custom Component add audio to props for collision audio.",
+  "searchtags": ["Audio", "Physic", "Physics", "Collison" ],
+  "requirements": null,
+  "downloadlink": "https://github.com/SketchFoxsky/CVR-Mods/releases/download/Releases/PhysicSounds.dll",
+  "sourcelink": "https://github.com/SketchFoxsky/CVR-Mods/tree/main/PhysicSounds",
+  "changelog": "Initial release",
+  "embedcolor": "#246382"
+}
