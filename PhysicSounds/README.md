@@ -1,3 +1,6 @@
+# As of r177 this is Local only. This will be fixed at a later date.
+
+
 ## Physic Sounds
 Add this component to the gameobject with the collider component for your physics item.
 
