@@ -1,4 +1,5 @@
-# As of r177 this is Local only. This will be fixed at a later date.
+>[!IMPORTANT]
+>This mod is currently LOCAL ONLY! This will be fixed with mod network or in a game update later!
 
 
 ## Physic Sounds
