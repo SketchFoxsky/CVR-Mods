@@ -83,14 +83,10 @@ namespace Sketch.PVPMod
 #endregion PropWhitelisting
 
             CVRGameEventSystem.Instance.OnConnected.AddListener(_ => OnConnected());
-            CVRGameEventSystem.Initialization.OnPlayerSetupStart.AddListener(OnPlayerSetup);
             BTKUIAddon.Initialize();
         }
 
-        public void OnPlayerSetup()
-        {
-            ThirdPersonCam = GameObject.Find("[CameraRigDesktop]/Camera/ThirdPersonCameraObj");
-        }
+        // BBCC Doesnt update on world load, so we need to do flight checks at OnConnected, besides props cant spawn in offline instances anyways.
         public void OnConnected()
         {
             if (BetterBetterCharacterController.Instance == null)
@@ -103,6 +99,7 @@ namespace Sketch.PVPMod
                 GameObject.Instantiate(_pvpprefab);
                 LoggerInstance.Msg("PVP Prefab has been spawned in.");
                 PVPModHud = GameObject.Find("PVP Mod Prefab(Clone)/PVPMODHitIndicator");
+                ThirdPersonCam = GameObject.Find("_PLAYERLOCAL/[CameraRigDesktop]/Camera/ThirdPersonCameraObj");
             }
             else
             {
@@ -119,26 +116,22 @@ namespace Sketch.PVPMod
                     LoggerInstance.Msg("PVP Mod is currently Disabled.");
                 }
             }
-        }
-
-        // Due to the BBCC updating AFTER world load, we do flight check here when the PVP mod tries to spawn its prefab.
-        // This will also check if it spawned itself incase the CVRWorld item is toggled on and off updating its movment settings.     
+        } 
 
         public override void OnUpdate()
         {
             if (GameObject.Find("PVP Mod Prefab(Clone)") != null)
             {
-                // Disable/Enable the combat system and damage components.
-                // as of r177 Damage components will still cause damage when disabled. Otherwise this works.
                 var ModdedCombatSystem = GameObject.Find("PVP Mod Prefab(Clone)");
+                var _combatcomponent = ModdedCombatSystem.GetComponent<CombatSystem>();
                 if (ModdedCombatSystem != null)
                 {
-                    ModdedCombatSystem.SetActive(EnablePVP.Value);
-                    var DamageObjects = UnityEngine.Object.FindObjectsOfType<Damage>(true);
-                    foreach (var damagecomponent in DamageObjects)
+                    PVPModHud.SetActive(EnablePVP.Value);
+                    if (EnablePVP.Value == false)
                     {
-                        damagecomponent.enabled = EnablePVP.Value;
-                        //DEBUG LoggerInstance.Msg($"Set this damage component to {EnablePVP.Value}");
+                        // constantly keep the player at full health when PVP mod is "disabled"
+                        // Health Script needs to check if the combat system gameobj is active. This will be changed when its fixed.
+                        _combatcomponent.currentHealth = 100f;
                     }
                 }
             }
@@ -146,17 +139,21 @@ namespace Sketch.PVPMod
             if (PVPModHud != null)
             {
                 //Keep the PVP mod Hud on the player
+
+                // VR
                 if (MetaPort.Instance.isUsingVr == true)
                 {
                     PlayerVRCam = PlayerSetup.Instance.vrCameraRig.transform.position;
                     PVPModHud.transform.position = PlayerVRCam;
                 }
-                else if ((MetaPort.Instance.isUsingVr == false) && (ThirdPersonCam != null) && (ThirdPersonCam.activeSelf == true))
+                // Third Person Mod support
+                else if ((!MetaPort.Instance.isUsingVr) && (ThirdPersonCam != null) && (ThirdPersonCam.activeSelf))
                 {
                     ThirdPersonCamPos = ThirdPersonCam.transform.position;
                     PVPModHud.transform.position = ThirdPersonCamPos;
                 }
-                else
+                // Desktop
+                else if ((!MetaPort.Instance.isUsingVr) && ((ThirdPersonCam == null) || (!ThirdPersonCam.activeSelf)))
                 {
                     PlayerDesktopCam = PlayerSetup.Instance.desktopCameraRig.transform.position;
                     PVPModHud.transform.position = PlayerDesktopCam;

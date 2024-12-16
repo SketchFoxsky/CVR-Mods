@@ -6,6 +6,7 @@ using ABI_RC.Core.InteractionSystem;
 using ABI_RC.Core.Player;
 using ABI_RC.Core.UI;
 using ABI_RC.Systems.GameEventSystem;
+using Shapes;
 
 namespace Sketch.HexReticle
 {
@@ -13,6 +14,9 @@ namespace Sketch.HexReticle
     {
         // Throwing Reticle Info
         public Image ThrowReticle;
+        public Image VRThrowReticle;
+        public GameObject Crosshair;
+        public GameObject VRCrosshair;
         public float throwfill;
         private float ThrowStart = 0.1f;
         public float _Time = 0f;
@@ -100,6 +104,9 @@ namespace Sketch.HexReticle
             #endregion AssetBundle
             ApplyPatches(typeof(ControllerRay_Patches));
             CVRGameEventSystem.Initialization.OnPlayerSetupStart.AddListener(OnPlayerSetup);
+
+            //Adding this listener cause for whatever reason BOTH reticles dont load on setup, resulting in null objects
+            CVRGameEventSystem.VRModeSwitch.OnPostSwitch.AddListener(_ => OnVRSwitch());
         }
 
         private void ApplyPatches(Type type)
@@ -114,23 +121,49 @@ namespace Sketch.HexReticle
                 LoggerInstance.Error(e);
             }
         }
-
+        #region PlayerSetup
         private void OnPlayerSetup()
         {
-            GameObject Crosshair;
-            Crosshair = GameObject.Find("_PLAYERLOCAL/[CameraRigDesktop]/Camera/Canvas/Image");
-            if (Crosshair == null)
+            if (ABI_RC.Core.Savior.MetaPort.Instance.isUsingVr)
+                PlayerSetupVR();
+            else
+                PlayerSetupDesktop();
+        }
+        private void PlayerSetupVR()
+        {
+            VRCrosshair = GameObject.Find("_PLAYERLOCAL/[CameraRigVR]/[Offset] User PlaySpace/[Offset] Seated Play/Camera/Canvas/Image");
+
+            if (VRCrosshair != null)
             {
-                LoggerInstance.Msg($"The reticle is null");
+                var VRCrosshairPos = VRCrosshair.transform;
+                GameObject.Instantiate(VRCrosshair, VRCrosshairPos);
+                var VRThrowMeter = GameObject.Find("_PLAYERLOCAL/[CameraRigVR]/[Offset] User PlaySpace/[Offset] Seated Play/Camera/Canvas/Image/Image(Clone)");
+                VRThrowMeter.SetActive(true);
+                VRThrowReticle = VRThrowMeter.GetComponent<Image>();
+                var VRthrowcolor = VRThrowReticle.GetComponent<Graphic>();
+
+                VRThrowReticle.sprite = _hexagonempty;
+                VRThrowReticle.type = Image.Type.Filled;
+                VRthrowcolor.color = new Color32(255, 255, 255, 45);
+                VRThrowReticle.material = _hexagonMaterial;
+                VRThrowMeter.transform.localScale = new Vector3(1.5f, 1.5f, 1.5f);
+                VRThrowReticle.fillAmount = 0f;
             }
             else
+                LoggerInstance.Msg($"VR Crosshair is Null");
+        }
+        private void PlayerSetupDesktop()
+        {
+            Crosshair = GameObject.Find("_PLAYERLOCAL/[CameraRigDesktop]/Camera/Canvas/Image");
+
+            if (Crosshair != null)
             {
+                //Desktop Throw Reticle
                 var CrosshairPos = Crosshair.transform;
                 GameObject.Instantiate(Crosshair, CrosshairPos);
                 var ThrowMeter = GameObject.Find("_PLAYERLOCAL/[CameraRigDesktop]/Camera/Canvas/Image/Image(Clone)");
                 ThrowReticle = ThrowMeter.GetComponent<Image>();
                 var throwcolor = ThrowReticle.GetComponent<Graphic>();
-
                 ThrowReticle.sprite = _hexagonempty;
                 ThrowReticle.type = Image.Type.Filled;
                 throwcolor.color = new Color32(255, 255, 255, 45);
@@ -138,7 +171,17 @@ namespace Sketch.HexReticle
                 ThrowMeter.transform.localScale = new Vector3(1.5f, 1.5f, 1.5f);
                 ThrowReticle.fillAmount = 0f;
             }
+            else
+                LoggerInstance.Msg($"Desktop Crosshair is Null");
         }
+        private void OnVRSwitch()
+        {
+            if (Crosshair == null)
+                PlayerSetupDesktop();            
+            if (VRCrosshair == null)
+                PlayerSetupVR();
+        }
+        #endregion PlayerSetup
 
         #region Patches
 
@@ -218,7 +261,7 @@ namespace Sketch.HexReticle
 
         public override void OnUpdate()
         {
-            if (ThrowReticle != null)
+            if (ThrowReticle != null || VRThrowReticle != null)
             {
                 if (Input.GetKey(KeyCode.G))
                 {
@@ -228,7 +271,10 @@ namespace Sketch.HexReticle
                         elapsedTime += Time.deltaTime;
                         float percentage = (elapsedTime / 1.9f);
                         throwfill = Mathf.Lerp(ThrowStart, 1f, percentage);
-                        ThrowReticle.fillAmount = throwfill;
+                        if (ThrowReticle != null)
+                            ThrowReticle.fillAmount = throwfill;
+                        if (VRThrowReticle != null)
+                            VRThrowReticle.fillAmount = throwfill;
                     }
                 }
                 else
@@ -236,7 +282,10 @@ namespace Sketch.HexReticle
                     _Time = 0f;
                     elapsedTime = 0f;
                     throwfill = 0f;
-                    ThrowReticle.fillAmount = throwfill;
+                    if (ThrowReticle != null)
+                        ThrowReticle.fillAmount = throwfill;
+                    if (VRThrowReticle != null)
+                        VRThrowReticle.fillAmount = throwfill;
                 }
             }
 
