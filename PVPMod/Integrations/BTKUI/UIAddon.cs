@@ -2,7 +2,6 @@
 using BTKUILib;
 using MelonLoader;
 using System.Reflection;
-using Sketch.PVPMod;
 
 
 namespace PVPMod.Integrations
@@ -43,10 +42,6 @@ namespace PVPMod.Integrations
             var category = _rootPage.AddCategory("PVP Mod");
             var Warningcategory = _rootPage.AddCategory("WARNING");
             var PVPtoggle = category.AddToggle("Enable PVP", "Click to toggle PVP", (Sketch.PVPMod.Main.EnablePVP.Value));
-            var Warning = Warningcategory.AddTextBlock
-                ("Due to a game bug, when disabling PVP you can still take damage. If you go down; you'll need to respawn.");
-            var Warning2 = Warningcategory.AddTextBlock
-                ("To re-enable PVP after going down, please rejoin the world.");
             PVPtoggle.OnValueUpdated += PVP =>
             {
                 if (PVP == true)

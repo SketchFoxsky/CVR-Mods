@@ -17,10 +17,13 @@ namespace Sketch.PVPMod
         private static string PVPPrefab = "Assets/PVPMOD/PVP Mod Prefab.prefab";
         private GameObject _pvpprefab;
         public GameObject PVPModHud;
+        public GameObject ModdedCombatSystem;
+        public CombatSystem _moddedcombat;
         private Vector3 PlayerVRCam;
         private Vector3 PlayerDesktopCam;
         private GameObject ThirdPersonCam;
         private Vector3 ThirdPersonCamPos;
+        private bool godmode;
 
 #region MelonPrefs
 
@@ -80,6 +83,7 @@ namespace Sketch.PVPMod
 #region PropWhitelisting
             var propWhitelist = SharedFilter.SpawnableWhitelist;
             propWhitelist.Add(typeof(Damage));
+            propWhitelist.Add(typeof(GunController));
 #endregion PropWhitelisting
 
             CVRGameEventSystem.Instance.OnConnected.AddListener(_ => OnConnected());
@@ -94,12 +98,14 @@ namespace Sketch.PVPMod
 
             var _WorldCombat = UnityEngine.Object.FindObjectOfType(typeof(CombatSystem));
 
-            if ((_WorldCombat == null) && (BetterBetterCharacterController.Instance.FlightAllowedInWorld == true) && (EnablePVP.Value == true))
+            if ((_WorldCombat == null) && (BetterBetterCharacterController.Instance.FlightAllowedInWorld == true))
             {
                 GameObject.Instantiate(_pvpprefab);
                 LoggerInstance.Msg("PVP Prefab has been spawned in.");
                 PVPModHud = GameObject.Find("PVP Mod Prefab(Clone)/PVPMODHitIndicator");
                 ThirdPersonCam = GameObject.Find("_PLAYERLOCAL/[CameraRigDesktop]/Camera/ThirdPersonCameraObj");
+                ModdedCombatSystem = GameObject.Find("PVP Mod Prefab(Clone)");
+                _moddedcombat = ModdedCombatSystem.GetComponent<CombatSystem>();
             }
             else
             {
@@ -111,29 +117,31 @@ namespace Sketch.PVPMod
                 {
                     LoggerInstance.Msg("World has flight restrictions, not spawning PVP prefab.");
                 }
-                if (EnablePVP.Value == false)
-                {
-                    LoggerInstance.Msg("PVP Mod is currently Disabled.");
-                }
+                // Just to make sure when moving to a new instance the objects are nulled when PVPMod is not allowed.
+                ModdedCombatSystem = GameObject.Find("PVP Mod Prefab(Clone)");
+                _moddedcombat = ModdedCombatSystem.GetComponent<CombatSystem>();
+                PVPModHud = GameObject.Find("PVP Mod Prefab(Clone)/PVPMODHitIndicator");
             }
         } 
 
         public override void OnUpdate()
         {
-            if (GameObject.Find("PVP Mod Prefab(Clone)") != null)
+            if (ModdedCombatSystem != null)
             {
-                var ModdedCombatSystem = GameObject.Find("PVP Mod Prefab(Clone)");
-                var _combatcomponent = ModdedCombatSystem.GetComponent<CombatSystem>();
-                if (ModdedCombatSystem != null)
+                if (!EnablePVP.Value)
                 {
-                    PVPModHud.SetActive(EnablePVP.Value);
-                    if (EnablePVP.Value == false)
-                    {
-                        // constantly keep the player at full health when PVP mod is "disabled"
-                        // Health Script needs to check if the combat system gameobj is active. This will be changed when its fixed.
-                        _combatcomponent.currentHealth = 100f;
-                    }
+                    // due to a game bug I cannot disable damage components, however we can keep the player health at 100
+                    // Theyll only be killed by taking 10000+ in a single frame.
+                    _moddedcombat.currentHealth = 10000;
+                    godmode = true;
                 }
+                else if (EnablePVP.Value && godmode)
+                {
+                    // set the players health back to 100
+                    _moddedcombat.currentHealth = 100;
+                    godmode = false;
+                }
+                PVPModHud.SetActive(EnablePVP.Value);
             }
 
             if (PVPModHud != null)
