@@ -10,7 +10,7 @@ using System.Text;
     nameof(Sketch.PVPMod),
     AssemblyInfoParams.Version,
     AssemblyInfoParams.Author,
-    downloadLink: "https://github.com/SketchFoxsky/CVR-Mods/tree/main/SourceMovement"
+    downloadLink: "https://github.com/SketchFoxsky/CVR-Mods/tree/main/PVPMod"
 )]
 
 [assembly: MelonGame("Alpha Blend Interactive", "ChilloutVR")]

@@ -7,7 +7,7 @@ using System.Reflection;
     nameof(Sketch.HexReticle),
     AssemblyInfoParams.Version,
     AssemblyInfoParams.Author,
-    downloadLink: "https://github.com/SketchFoxsky/CVR-Mods/tree/main/SourceMovement"
+    downloadLink: "https://github.com/SketchFoxsky/CVR-Mods/tree/main/HexReticle"
 )]
 
 [assembly: MelonGame("Alpha Blend Interactive", "ChilloutVR")]

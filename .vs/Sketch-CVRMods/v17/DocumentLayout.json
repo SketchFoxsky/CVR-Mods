@@ -3,44 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5629CFF9-43C9-410A-AAAA-288125236C55}|BetterBetterCombatMod\\BetterBetterCombatMod.csproj|c:\\users\\leona\\documents\\sketch cvr mods\\cvr-mods\\betterbettercombatmod\\core.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5629CFF9-43C9-410A-AAAA-288125236C55}|BetterBetterCombatMod\\BetterBetterCombatMod.csproj|solutionrelative:betterbettercombatmod\\core.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5629CFF9-43C9-410A-AAAA-288125236C55}|BetterBetterCombatMod\\BetterBetterCombatMod.csproj|c:\\users\\leona\\documents\\sketch cvr mods\\cvr-mods\\betterbettercombatmod\\components\\controlpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5629CFF9-43C9-410A-AAAA-288125236C55}|BetterBetterCombatMod\\BetterBetterCombatMod.csproj|solutionrelative:betterbettercombatmod\\components\\controlpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{67E521F7-C85A-449F-A411-84BA9DD8BD1D}|HexReticle\\HexReticle.csproj|c:\\users\\leona\\documents\\sketch cvr mods\\cvr-mods\\hexreticle\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{67E521F7-C85A-449F-A411-84BA9DD8BD1D}|HexReticle\\HexReticle.csproj|solutionrelative:hexreticle\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5629CFF9-43C9-410A-AAAA-288125236C55}|BetterBetterCombatMod\\BetterBetterCombatMod.csproj|c:\\users\\leona\\documents\\sketch cvr mods\\cvr-mods\\betterbettercombatmod\\components\\guncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5629CFF9-43C9-410A-AAAA-288125236C55}|BetterBetterCombatMod\\BetterBetterCombatMod.csproj|solutionrelative:betterbettercombatmod\\components\\guncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{67E521F7-C85A-449F-A411-84BA9DD8BD1D}|HexReticle\\HexReticle.csproj|c:\\users\\leona\\documents\\sketch cvr mods\\cvr-mods\\hexreticle\\format.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{67E521F7-C85A-449F-A411-84BA9DD8BD1D}|HexReticle\\HexReticle.csproj|solutionrelative:hexreticle\\format.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{063CD98D-9094-437C-8C49-B40E3B9FAB3A}|PhysicSounds\\PhysicSounds.csproj|c:\\users\\leona\\documents\\sketch cvr mods\\cvr-mods\\physicsounds\\format.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{063CD98D-9094-437C-8C49-B40E3B9FAB3A}|PhysicSounds\\PhysicSounds.csproj|solutionrelative:physicsounds\\format.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{CEA5A613-1461-423C-8242-8FEDAE7376FF}|PVPMod\\PVPMod.csproj|c:\\users\\leona\\documents\\sketch cvr mods\\cvr-mods\\pvpmod\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEA5A613-1461-423C-8242-8FEDAE7376FF}|PVPMod\\PVPMod.csproj|solutionrelative:pvpmod\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{063CD98D-9094-437C-8C49-B40E3B9FAB3A}|PhysicSounds\\PhysicSounds.csproj|c:\\users\\leona\\documents\\sketch cvr mods\\cvr-mods\\physicsounds\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{063CD98D-9094-437C-8C49-B40E3B9FAB3A}|PhysicSounds\\PhysicSounds.csproj|solutionrelative:physicsounds\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17EAB855-833B-45D1-8B92-CFBFA1BD58DD}|SourceMovement\\SourceMovement.csproj|c:\\users\\leona\\documents\\sketch cvr mods\\cvr-mods\\sourcemovement\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17EAB855-833B-45D1-8B92-CFBFA1BD58DD}|SourceMovement\\SourceMovement.csproj|solutionrelative:sourcemovement\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{67E521F7-C85A-449F-A411-84BA9DD8BD1D}|HexReticle\\HexReticle.csproj|c:\\users\\leona\\documents\\sketch cvr mods\\cvr-mods\\hexreticle\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67E521F7-C85A-449F-A411-84BA9DD8BD1D}|HexReticle\\HexReticle.csproj|solutionrelative:hexreticle\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17EAB855-833B-45D1-8B92-CFBFA1BD58DD}|SourceMovement\\SourceMovement.csproj|c:\\users\\leona\\documents\\sketch cvr mods\\cvr-mods\\sourcemovement\\format.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{17EAB855-833B-45D1-8B92-CFBFA1BD58DD}|SourceMovement\\SourceMovement.csproj|solutionrelative:sourcemovement\\format.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{5629CFF9-43C9-410A-AAAA-288125236C55}|BetterBetterCombatMod\\BetterBetterCombatMod.csproj|c:\\users\\leona\\documents\\sketch cvr mods\\cvr-mods\\betterbettercombatmod\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5629CFF9-43C9-410A-AAAA-288125236C55}|BetterBetterCombatMod\\BetterBetterCombatMod.csproj|solutionrelative:betterbettercombatmod\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CEA5A613-1461-423C-8242-8FEDAE7376FF}|PVPMod\\PVPMod.csproj|c:\\users\\leona\\documents\\sketch cvr mods\\cvr-mods\\pvpmod\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CEA5A613-1461-423C-8242-8FEDAE7376FF}|PVPMod\\PVPMod.csproj|solutionrelative:pvpmod\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{67E521F7-C85A-449F-A411-84BA9DD8BD1D}|HexReticle\\HexReticle.csproj|c:\\users\\leona\\documents\\sketch cvr mods\\cvr-mods\\hexreticle\\hexreticle.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{67E521F7-C85A-449F-A411-84BA9DD8BD1D}|HexReticle\\HexReticle.csproj|solutionrelative:hexreticle\\hexreticle.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CEA5A613-1461-423C-8242-8FEDAE7376FF}|PVPMod\\PVPMod.csproj|c:\\users\\leona\\documents\\sketch cvr mods\\cvr-mods\\pvpmod\\integrations\\btkui\\uiaddon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CEA5A613-1461-423C-8242-8FEDAE7376FF}|PVPMod\\PVPMod.csproj|solutionrelative:pvpmod\\integrations\\btkui\\uiaddon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5629CFF9-43C9-410A-AAAA-288125236C55}|BetterBetterCombatMod\\BetterBetterCombatMod.csproj|c:\\users\\leona\\documents\\sketch cvr mods\\cvr-mods\\betterbettercombatmod\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5629CFF9-43C9-410A-AAAA-288125236C55}|BetterBetterCombatMod\\BetterBetterCombatMod.csproj|solutionrelative:betterbettercombatmod\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -55,124 +43,93 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Core.cs",
-              "DocumentMoniker": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\BetterBetterCombatMod\\Core.cs",
-              "RelativeDocumentMoniker": "BetterBetterCombatMod\\Core.cs",
-              "ToolTip": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\BetterBetterCombatMod\\Core.cs",
-              "RelativeToolTip": "BetterBetterCombatMod\\Core.cs",
+              "Title": "ControlPoint.cs",
+              "DocumentMoniker": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\BetterBetterCombatMod\\Components\\ControlPoint.cs",
+              "RelativeDocumentMoniker": "BetterBetterCombatMod\\Components\\ControlPoint.cs",
+              "ToolTip": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\BetterBetterCombatMod\\Components\\ControlPoint.cs",
+              "RelativeToolTip": "BetterBetterCombatMod\\Components\\ControlPoint.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T05:42:43.767Z",
+              "WhenOpened": "2024-12-24T20:14:51.194Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AssemblyInfo.cs",
-              "DocumentMoniker": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\HexReticle\\Properties\\AssemblyInfo.cs",
-              "RelativeDocumentMoniker": "HexReticle\\Properties\\AssemblyInfo.cs",
-              "ToolTip": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\HexReticle\\Properties\\AssemblyInfo.cs",
-              "RelativeToolTip": "HexReticle\\Properties\\AssemblyInfo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAsAAAA",
+              "Title": "GunController.cs",
+              "DocumentMoniker": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\BetterBetterCombatMod\\Components\\GunController.cs",
+              "RelativeDocumentMoniker": "BetterBetterCombatMod\\Components\\GunController.cs",
+              "ToolTip": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\BetterBetterCombatMod\\Components\\GunController.cs",
+              "RelativeToolTip": "BetterBetterCombatMod\\Components\\GunController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T00:37:19.529Z",
+              "WhenOpened": "2024-12-24T20:14:40.582Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "format.json",
-              "DocumentMoniker": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\HexReticle\\format.json",
-              "RelativeDocumentMoniker": "HexReticle\\format.json",
-              "ToolTip": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\HexReticle\\format.json",
-              "RelativeToolTip": "HexReticle\\format.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-23T00:36:57.604Z"
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\PVPMod\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "PVPMod\\Properties\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\PVPMod\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "PVPMod\\Properties\\AssemblyInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T20:14:04.06Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "AssemblyInfo.cs",
               "DocumentMoniker": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\PhysicSounds\\Properties\\AssemblyInfo.cs",
               "RelativeDocumentMoniker": "PhysicSounds\\Properties\\AssemblyInfo.cs",
               "ToolTip": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\PhysicSounds\\Properties\\AssemblyInfo.cs",
               "RelativeToolTip": "PhysicSounds\\Properties\\AssemblyInfo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAsAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T00:36:03.592Z"
+              "WhenOpened": "2024-12-24T20:13:56.266Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "format.json",
-              "DocumentMoniker": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\PhysicSounds\\format.json",
-              "RelativeDocumentMoniker": "PhysicSounds\\format.json",
-              "ToolTip": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\PhysicSounds\\format.json",
-              "RelativeToolTip": "PhysicSounds\\format.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-23T00:35:48.603Z"
+              "DocumentIndex": 4,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\HexReticle\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "HexReticle\\Properties\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\HexReticle\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "HexReticle\\Properties\\AssemblyInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T20:13:42.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Main.cs",
+              "DocumentMoniker": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\BetterBetterCombatMod\\Main.cs",
+              "RelativeDocumentMoniker": "BetterBetterCombatMod\\Main.cs",
+              "ToolTip": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\BetterBetterCombatMod\\Main.cs",
+              "RelativeToolTip": "BetterBetterCombatMod\\Main.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T20:10:59.103Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "AssemblyInfo.cs",
-              "DocumentMoniker": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\SourceMovement\\Properties\\AssemblyInfo.cs",
-              "RelativeDocumentMoniker": "SourceMovement\\Properties\\AssemblyInfo.cs",
-              "ToolTip": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\SourceMovement\\Properties\\AssemblyInfo.cs",
-              "RelativeToolTip": "SourceMovement\\Properties\\AssemblyInfo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAFAAAA",
+              "DocumentMoniker": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\BetterBetterCombatMod\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "BetterBetterCombatMod\\Properties\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\BetterBetterCombatMod\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "BetterBetterCombatMod\\Properties\\AssemblyInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T00:35:29.577Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "format.json",
-              "DocumentMoniker": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\SourceMovement\\format.json",
-              "RelativeDocumentMoniker": "SourceMovement\\format.json",
-              "ToolTip": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\SourceMovement\\format.json",
-              "RelativeToolTip": "SourceMovement\\format.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-23T00:35:22.156Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "UIAddon.cs",
-              "DocumentMoniker": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\PVPMod\\Integrations\\BTKUI\\UIAddon.cs",
-              "RelativeDocumentMoniker": "PVPMod\\Integrations\\BTKUI\\UIAddon.cs",
-              "ToolTip": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\PVPMod\\Integrations\\BTKUI\\UIAddon.cs",
-              "RelativeToolTip": "PVPMod\\Integrations\\BTKUI\\UIAddon.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAC4AAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T20:36:53.742Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "HexReticle.csproj",
-              "DocumentMoniker": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\HexReticle\\HexReticle.csproj",
-              "RelativeDocumentMoniker": "HexReticle\\HexReticle.csproj",
-              "ToolTip": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\HexReticle\\HexReticle.csproj",
-              "RelativeToolTip": "HexReticle\\HexReticle.csproj",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-16T04:38:00.528Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Main.cs",
-              "DocumentMoniker": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\PVPMod\\Main.cs",
-              "RelativeDocumentMoniker": "PVPMod\\Main.cs",
-              "ToolTip": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\PVPMod\\Main.cs",
-              "RelativeToolTip": "PVPMod\\Main.cs",
-              "ViewState": "AQIAAFQAAAAAAAAAAAAQwIoAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T02:40:45.968Z"
+              "WhenOpened": "2024-12-24T20:09:50.1Z",
+              "EditorCaption": ""
             }
           ]
         }
