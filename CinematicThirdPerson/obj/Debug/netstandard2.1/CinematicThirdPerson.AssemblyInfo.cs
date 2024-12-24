@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CinematicThirdPerson")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ec073e63244403ed966934fe62aae3576a29736a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e422f4d9ee44970f558901e032c8c2d4fdaa448f")]
 [assembly: System.Reflection.AssemblyProductAttribute("CinematicThirdPerson")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CinematicThirdPerson")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

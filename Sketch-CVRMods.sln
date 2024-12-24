@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CinematicThirdPerson", "Cin
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PVPMod", "PVPMod\PVPMod.csproj", "{CEA5A613-1461-423C-8242-8FEDAE7376FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhysicSounds", "PhysicSounds\PhysicSounds.csproj", "{063CD98D-9094-437C-8C49-B40E3B9FAB3A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhysicSounds", "PhysicSounds\PhysicSounds.csproj", "{063CD98D-9094-437C-8C49-B40E3B9FAB3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetterBetterCombatMod", "BetterBetterCombatMod\BetterBetterCombatMod.csproj", "{5629CFF9-43C9-410A-AAAA-288125236C55}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{063CD98D-9094-437C-8C49-B40E3B9FAB3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{063CD98D-9094-437C-8C49-B40E3B9FAB3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{063CD98D-9094-437C-8C49-B40E3B9FAB3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5629CFF9-43C9-410A-AAAA-288125236C55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5629CFF9-43C9-410A-AAAA-288125236C55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5629CFF9-43C9-410A-AAAA-288125236C55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5629CFF9-43C9-410A-AAAA-288125236C55}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,7 +1,7 @@
 {
-  "_id": -1,
+  "_id": 241,
   "name": "HexReticle",
-  "modversion": "1.0.0",
+  "modversion": "1.0.1",
   "gameversion": "r177",
   "loaderversion": "0.6.1",
   "modtype": "Mod",
@@ -11,6 +11,6 @@
   "requirements": null,
   "downloadlink": "https://github.com/SketchFoxsky/CVR-Mods/releases/download/Releases/HexReticle.dll",
   "sourcelink": "https://github.com/SketchFoxsky/CVR-Mods/tree/main/HexReticle",
-  "changelog": "Initial Release",
+  "changelog": "Added Throw Meter, Fixed VRSwitch bug.",
   "embedcolor": "#246382"
 }

@@ -1,7 +1,7 @@
 {
-  "_id": -1,
+  "_id": 239,
   "name": "SourceMovement",
-  "modversion": "1.0.0",
+  "modversion": "1.0.1",
   "gameversion": "r177",
   "loaderversion": "0.6.1",
   "modtype": "Mod",
@@ -11,6 +11,6 @@
   "requirements": null,
   "downloadlink": "https://github.com/SketchFoxsky/CVR-Mods/releases/download/Releases/SourceMovement.dll",
   "sourcelink": "https://github.com/SketchFoxsky/CVR-Mods/tree/main/SourceMovement",
-  "changelog": "Added BTKUI integration",
+  "changelog": "Fixed Fluid Volume bug, Fixed Assembly Info",
   "embedcolor": "#246382"
 }

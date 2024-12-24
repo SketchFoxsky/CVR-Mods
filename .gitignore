@@ -367,3 +367,9 @@ NStrip.exe
 /PVPMod/obj
 /PhysicSounds/bin
 /PhysicSounds/obj
+/SourceMovement/obj
+/CinematicThirdPerson/obj
+/CinematicThirdPerson/obj
+*.cache
+*.cache
+/CinematicThirdPerson/obj
