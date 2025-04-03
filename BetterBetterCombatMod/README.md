@@ -1,4 +1,8 @@
 > This Mod is intended to be a rewrite of broken or unimplimented Components present in the CCK as of "CCK 3.12".
+# This mod is abandoned as most the things i wanted to do were added natively r179
+
+
+
 
 # Task Board
 This is a list of things I need to do in order to justify this mods existence.
