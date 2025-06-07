@@ -33,7 +33,7 @@ namespace Sketch.SourceMovement
 
         //Acceleration and Walking
         private static float _currentMaxAcceleration = 15f;
-        float _OriginalMaxAcceleration =25f;
+        float _OriginalMaxAcceleration = 25f;
         private static float _currentWalkSpeed = 100f;
         float _OriginalWalkSpeed;
 
@@ -43,8 +43,11 @@ namespace Sketch.SourceMovement
         private static float _OriginalGroundFriction = 8f;
         private static float _currentbrakingDecelerationWalking = 0f;
         private static float _OriginalbrakingDecelerationWalking = 25f;
+        private static float _OriginalSlopeLimit = 70f;
 
         bool _PassedWorldCheck = false;
+
+        BetterBetterCharacterController BBCC;
 
         #endregion Default Settings
 
@@ -55,7 +58,12 @@ namespace Sketch.SourceMovement
             //Add listeners to call world load and unload so we can apply world movement settings.
 
             //this can be spammed by world author toggling the gamobject with CVRWorld, needs a fix.
-            CVRGameEventSystem.World.OnUnload.AddListener(_ => OnWorldUnload());
+            CVRGameEventSystem.World.OnUnload.AddListener(_ =>
+            {
+                LoggerInstance.Msg("World unload event fired!");
+                OnWorldUnload();
+            });
+
             CVRWorld.GameRulesUpdated += OnApplyMovementSettings;
             BTKUIAddon.Initialize();
         }
@@ -63,61 +71,61 @@ namespace Sketch.SourceMovement
         // Get World Movement Settings, This will also work on runtime with animated CVR World Settings!
         private void OnApplyMovementSettings()
         {
-            _OriginalMaxAcceleration = BetterBetterCharacterController.Instance.maxAcceleration;
-            _OriginalWalkSpeed = BetterBetterCharacterController.Instance.maxWalkSpeed;
-            LoggerInstance.Msg("Original World Movement Settings acquired");
+            if (BetterBetterCharacterController.Instance != null)
+            {
+                BBCC = BetterBetterCharacterController.Instance;
+                _OriginalMaxAcceleration = BBCC.maxAcceleration;
+                _OriginalWalkSpeed = BBCC.maxWalkSpeed;
+                LoggerInstance.Msg("Original World Movement Settings acquired");
 
-            //Prevent OnUpdate() from overiding the original values the same frame they change.
-            _PassedWorldCheck = true;
+                //Prevent OnUpdate() from overiding the original values the same frame they change.
+                _PassedWorldCheck = true;
+            }
         }
 
         private void OnWorldUnload()
         {
             // Prevent loading old friction data from another world.
-            BetterBetterCharacterController.Instance.groundFriction = _OriginalGroundFriction;
-            BetterBetterCharacterController.Instance.brakingDecelerationWalking = _OriginalbrakingDecelerationWalking;
-            LoggerInstance.Msg("Removed Old World movement.");
+            // Add null check for BBCC cause WorldUnload fires on startup for some reason!
+            if (BBCC != null)
+            {
+                LoggerInstance.Msg("Removed Old World movement.");
+                BBCC.groundFriction = _OriginalGroundFriction;
+                BBCC.brakingDecelerationWalking = _OriginalbrakingDecelerationWalking;
+            }
             _PassedWorldCheck = false;
         }
 
         public override void OnUpdate()
         {
-            if (BetterBetterCharacterController.Instance == null)
-                return;
-
-            if (((!EntryUseSourceMovement.Value)
-                || BetterBetterCharacterController.Instance.IsFlying()
-                || BetterBetterCharacterController.Instance.FlightAllowedInWorld == false
-                || BetterBetterCharacterController.Instance.fallingTime <= 0.01f)
-                && (_PassedWorldCheck == true))
+            if (BBCC != null)
             {
-                BetterBetterCharacterController.Instance.groundFriction = _OriginalGroundFriction;
-                BetterBetterCharacterController.Instance.brakingDecelerationWalking = _OriginalbrakingDecelerationWalking;
-                BetterBetterCharacterController.Instance.fallingLateralFriction = _OriginalLateralFallingFriction;
-                BetterBetterCharacterController.Instance.maxFallSpeed = _OriginalMaxFallSpeed;
-                BetterBetterCharacterController.Instance.maxWalkSpeed = _OriginalWalkSpeed;
-            }
-            //Apply Source Movement settings when jumping/falling
-            if ((EntryUseSourceMovement.Value) && BetterBetterCharacterController.Instance.fallingTime > 0.25f
-                && BetterBetterCharacterController.Instance.FlightAllowedInWorld == true)
-            {
-                BetterBetterCharacterController.Instance.fallingLateralFriction = _currentLateralFallingFriction;
-                BetterBetterCharacterController.Instance.maxFallSpeed = _currentMaxFallSpeed;
-                BetterBetterCharacterController.Instance.maxWalkSpeed = _currentWalkSpeed;
-                BetterBetterCharacterController.Instance.maxAcceleration = _currentMaxAcceleration;
-                BetterBetterCharacterController.Instance.groundFriction = _currentGroundFriction;
-                BetterBetterCharacterController.Instance.brakingDecelerationWalking = _currentbrakingDecelerationWalking;
-            }
-
-            //Disable Ground constraint when the player is over a certain speed
-            if (((BetterBetterCharacterController.Instance.speed >= 50f) && !BetterBetterCharacterController.Instance.IsGrounded()
-                && EntryUseSourceMovement.Value) || (BetterBetterCharacterController.Instance.IsSwimming()))
-            {
-                BetterBetterCharacterController.Instance.EnableGroundConstraint(false);
-            }
-            else
-            {
-                BetterBetterCharacterController.Instance.EnableGroundConstraint(true);
+                if (((!EntryUseSourceMovement.Value)
+                   || BBCC.IsFlying()
+                   || BBCC.FlightAllowedInWorld == false
+                   || BBCC.fallingTime <= 0.01f)
+                   && (_PassedWorldCheck == true))
+                {
+                    BBCC.groundFriction = _OriginalGroundFriction;
+                    BBCC.brakingDecelerationWalking = _OriginalbrakingDecelerationWalking;
+                    BBCC.fallingLateralFriction = _OriginalLateralFallingFriction;
+                    BBCC.maxFallSpeed = _OriginalMaxFallSpeed;
+                    BBCC.maxWalkSpeed = _OriginalWalkSpeed;
+                    BBCC.maxAcceleration = _OriginalMaxAcceleration;
+                    BBCC.CharacterMovement.slopeLimit = _OriginalSlopeLimit;
+                }
+                //Apply Source Movement settings when jumping/falling
+                if ((EntryUseSourceMovement.Value) && BBCC.fallingTime > 0.25f
+                    && BBCC.FlightAllowedInWorld == true)
+                {
+                    BBCC.CharacterMovement.slopeLimit = 60f;
+                    BBCC.fallingLateralFriction = _currentLateralFallingFriction;
+                    BBCC.maxFallSpeed = _currentMaxFallSpeed;
+                    BBCC.maxWalkSpeed = _currentWalkSpeed;
+                    BBCC.maxAcceleration = _currentMaxAcceleration;
+                    BBCC.groundFriction = _currentGroundFriction;
+                    BBCC.brakingDecelerationWalking = _currentbrakingDecelerationWalking;
+                }
             }
         }
     }
