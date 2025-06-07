@@ -1,8 +1,8 @@
 {
   "_id": 239,
   "name": "SourceMovement",
-  "modversion": "1.0.1",
-  "gameversion": "r177",
+  "modversion": "1.0.2",
+  "gameversion": "r179",
   "loaderversion": "0.6.1",
   "modtype": "Mod",
   "author": "SketchFoxsky",
@@ -11,6 +11,6 @@
   "requirements": null,
   "downloadlink": "https://github.com/SketchFoxsky/CVR-Mods/releases/download/Releases/SourceMovement.dll",
   "sourcelink": "https://github.com/SketchFoxsky/CVR-Mods/tree/main/SourceMovement",
-  "changelog": "Fixed Fluid Volume bug, Fixed Assembly Info",
+  "changelog": "Cleanup, added null checks",
   "embedcolor": "#246382"
 }
