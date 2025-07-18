@@ -1,23 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\BetterBetterCombatMod\\BetterBetterCombatMod.csproj": {}
+    "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\ImmersivePortals\\ImmersivePortals.csproj": {}
   },
   "projects": {
-    "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\BetterBetterCombatMod\\BetterBetterCombatMod.csproj": {
+    "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\ImmersivePortals\\ImmersivePortals.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\BetterBetterCombatMod\\BetterBetterCombatMod.csproj",
-        "projectName": "BetterBetterCombatMod",
-        "projectPath": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\BetterBetterCombatMod\\BetterBetterCombatMod.csproj",
+        "projectUniqueName": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\ImmersivePortals\\ImmersivePortals.csproj",
+        "projectName": "ImmersivePortals",
+        "projectPath": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\ImmersivePortals\\ImmersivePortals.csproj",
         "packagesPath": "C:\\Users\\leona\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\BetterBetterCombatMod\\obj\\",
+        "outputPath": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\ImmersivePortals\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\leona\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -42,7 +44,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "netstandard2.1": {
@@ -63,7 +66,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

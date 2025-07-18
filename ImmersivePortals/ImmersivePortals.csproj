@@ -3,13 +3,13 @@
 		<TargetFramework>netstandard2.1</TargetFramework>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>disable</Nullable>
-		<RootNamespace>BetterBetterCombatMod</RootNamespace>
+		<RootNamespace>ImmersivePortals</RootNamespace>
 		<LangVersion>default</LangVersion>
 		<IsPackable>false</IsPackable>
 		<AssemblyVersion>1.0.0.0</AssemblyVersion>
 		<FileVersion>1.0.0.0</FileVersion>
 		<NeutralLanguage>en-US</NeutralLanguage>
-		<AssemblyName>BetterBetterCombatMod</AssemblyName>
+		<AssemblyName>ImmersivePortals</AssemblyName>
 		<LangVersion>latest</LangVersion>
 		<ImplicitUsings>enable</ImplicitUsings>
 	</PropertyGroup>
@@ -648,10 +648,7 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<Compile Include="Components\ControlPoint.cs" />
-		<Compile Include="Components\GunController.cs" />
-		<Compile Include="Main.cs" />
-		<Compile Include="Properties\AssemblyInfo.cs" />
+		<Compile Include="Whitelist.cs" />
 	</ItemGroup>
 	
 	<Target Name="PostBuild" AfterTargets="PostBuildEvent">

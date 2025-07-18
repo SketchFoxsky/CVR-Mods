@@ -3,3 +3,6 @@ build_property.RootNamespace = CinematicThirdPerson
 build_property.ProjectDir = C:\Users\leona\Documents\Sketch CVR Mods\CVR-Mods\CinematicThirdPerson\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTUseWindowsUIXamlProjections = false
+build_property.EffectiveAnalysisLevelStyle = 
+build_property.EnableCodeStyleSeverity = 

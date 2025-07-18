@@ -1,6 +1,6 @@
 is_global = true
-build_property.RootNamespace = SourceMovement
-build_property.ProjectDir = C:\Users\leona\Documents\Sketch CVR Mods\CVR-Mods\SourceMovement\
+build_property.RootNamespace = ImmersivePortals
+build_property.ProjectDir = C:\Users\leona\Documents\Sketch CVR Mods\CVR-Mods\ImmersivePortals\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.CsWinRTUseWindowsUIXamlProjections = false
