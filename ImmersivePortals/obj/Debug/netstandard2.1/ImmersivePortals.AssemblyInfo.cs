@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ImmersivePortals")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+68ad0e916f7b71d41237239486184a5415395f46")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+512b0f022cee377ba578d810cb5b7c7a77907ee8")]
 [assembly: System.Reflection.AssemblyProductAttribute("ImmersivePortals")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ImmersivePortals")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
