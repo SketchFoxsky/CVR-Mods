@@ -4,6 +4,7 @@ using ABI_RC.Systems.Camera.VisualMods;
 using ABI_RC.Systems.Movement;
 using System.Reflection;
 using System;
+using ABI_RC.Systems.Camera;
 
 namespace Sketch.PortableCameraEnchancements.HarmonyPatches
 {
@@ -28,7 +29,7 @@ namespace Sketch.PortableCameraEnchancements.HarmonyPatches
             Vector3 defaultTarget = BetterBetterCharacterController.Instance.RotationPivot.position;
 
             // Use mod settings and bones
-            if (!PortableCameraEnchancements.UseNewLookTarget.Value || PortableCameraEnchancements.Head == null)
+            if (!PortableCameraEnchancements.UseNewLookTarget || PortableCameraEnchancements.Head == null)
             {
                 // Just do original behavior (look at default target)
                 RotateCameraTowards(cameraTransform, defaultTarget);
@@ -38,8 +39,12 @@ namespace Sketch.PortableCameraEnchancements.HarmonyPatches
             // Calculate blend factor based on distance from original target to camera
             float distance = Vector3.Distance(cameraTransform.position, defaultTarget);
 
-            float min = PortableCameraEnchancements.BlendMinDistance.Value;
-            float max = PortableCameraEnchancements.BlendMaxDistance.Value;
+            // Scale with player height cause duh 1m for tiny people is not the same for big people
+            float avatarHeight = PortableCameraEnchancements.GetAvatarHeight();
+            float scale = avatarHeight / 1.75f;
+
+            float min = PortableCameraEnchancements.BlendMinDistance * scale;
+            float max = PortableCameraEnchancements.BlendMaxDistance * scale;
 
             // Clamp and normalize between min and max
             float t = Mathf.InverseLerp(min, max, distance); // 0 = close, 1 = far
@@ -49,7 +54,7 @@ namespace Sketch.PortableCameraEnchancements.HarmonyPatches
 
             Vector3 blendedTarget;
 
-            if (PortableCameraEnchancements.AutoBlendTargets.Value)
+            if (PortableCameraEnchancements.AutoBlendTargets)
             {
                 blendedTarget = Vector3.Lerp(defaultTarget, PortableCameraEnchancements.ModdedTarget, blendFactor);
                 PortableCameraEnchancements.BlendedTarget = blendedTarget;
@@ -72,5 +77,20 @@ namespace Sketch.PortableCameraEnchancements.HarmonyPatches
             Quaternion targetRotation = Quaternion.LookRotation(direction, upVector);
             cameraTransform.rotation = Quaternion.Slerp(cameraTransform.rotation, targetRotation, 10f * Time.deltaTime);
         }
+
+        [HarmonyPostfix]
+        [HarmonyPatch(typeof(PortableCamera), "Start")]
+        private static void Postfix_PortableCamera_Start(ref PortableCamera __instance)
+        {
+            VisualMods.CameraEnhancements mainMod = new();
+            mainMod.Setup(__instance);
+        }
+        [HarmonyPostfix]
+        [HarmonyPatch(typeof(PortableCamera), nameof(PortableCamera.UpdateOptionsDisplay))]
+        private static void Postfix_PortableCamera_UpdateOptionsDisplay(ref bool ____showExpertSettings)
+        {
+            VisualMods.CameraEnhancements.Instance?.OnUpdateOptionsDisplay(____showExpertSettings);
+        }
     }
+
 }

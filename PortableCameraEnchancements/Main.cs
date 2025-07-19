@@ -18,22 +18,14 @@ namespace Sketch.PortableCameraEnchancements
         internal static MelonPreferences_Entry<bool> LogAviChanges =
             Category.CreateEntry("Log_Avatar_Changes", true, "Log_Avatar_Changes", description: "Print Avatar changes to the Log");
 
-        internal static MelonPreferences_Entry<bool> UseNewLookTarget =
-            Category.CreateEntry("Use_Tracking_Target", true, "Use New Tracking Target", description: "Toggle the new tracking behavior.");
-
-        internal static MelonPreferences_Entry<bool> AutoBlendTargets =
-            Category.CreateEntry("Enable_Auto_Blend", true, "Auto Blend Tracking Targets", description: "Blends the tracking target based on how close you are to the camera");
-
-        internal static MelonPreferences_Entry<float> BlendMinDistance =
-            Category.CreateEntry("BlendMinDistance", 1f, "Blend Min Distance", description: "No blending below this distance (uses default target)");
-
-        internal static MelonPreferences_Entry<float> BlendMaxDistance =
-            Category.CreateEntry("BlendMaxDistance", 3f, "Blend Max Distance", description: "Full blend to modded target at this distance");
 
         #endregion
 
         public static Vector3 ModdedTarget;
         public static Vector3 BlendedTarget;
+
+        private const float DefaultScale = 1.75f;
+        public float AvatarHeight;
 
         private Animator AvatarAnimator;
         private bool UseDefaultTarget;
@@ -43,6 +35,12 @@ namespace Sketch.PortableCameraEnchancements
         public static Transform Chest;
         public static Transform FootL;
         public static Transform FootR;
+
+
+        public static bool UseNewLookTarget = true;
+        public static bool AutoBlendTargets = true;
+        public static float BlendMinDistance = 1f;
+        public static float BlendMaxDistance = 3f;
 
         public override void OnInitializeMelon()
         {
@@ -82,6 +80,7 @@ namespace Sketch.PortableCameraEnchancements
             if (!AvatarAnimator.isHuman)
             {
                 UseDefaultTarget = true;
+                AvatarHeight = DefaultScale;
                 return;
             }
 
@@ -89,10 +88,10 @@ namespace Sketch.PortableCameraEnchancements
 
             Head = AvatarAnimator.GetBoneTransform(HumanBodyBones.Head);
             Hips = AvatarAnimator.GetBoneTransform(HumanBodyBones.Hips);
-            Chest = AvatarAnimator.GetBoneTransform(HumanBodyBones.Chest)
-                    ?? AvatarAnimator.GetBoneTransform(HumanBodyBones.Spine);
+            Chest = AvatarAnimator.GetBoneTransform(HumanBodyBones.Chest) ?? AvatarAnimator.GetBoneTransform(HumanBodyBones.Spine);
             FootL = AvatarAnimator.GetBoneTransform(HumanBodyBones.LeftFoot);
             FootR = AvatarAnimator.GetBoneTransform(HumanBodyBones.RightFoot);
+            AvatarHeight = PlayerSetup.Instance.AvatarHeight;
         }
 
         public override void OnUpdate()
@@ -100,7 +99,15 @@ namespace Sketch.PortableCameraEnchancements
             if (Head == null || Chest == null || Hips == null || FootL == null || FootR == null)
                 return;
             Vector3 feet =(FootL.position + FootR.position) / 2f;
-            ModdedTarget = (Head.position + Chest.position + Hips.position + feet) / 4f;
+            Vector3 rawTarget = (Head.position + Chest.position + Hips.position + feet) / 4f;
+            ModdedTarget = Vector3.Lerp(ModdedTarget, rawTarget, Time.deltaTime * 10f); // 10f is the Smooth to prevent micro stutters when moving in local space.
+
+        }
+
+        public static float GetAvatarHeight()
+        {
+            float I = PlayerSetup.Instance.AvatarHeight;
+            return I;
         }
     }
 }
