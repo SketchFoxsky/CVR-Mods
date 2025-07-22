@@ -1,4 +1,5 @@
 ﻿using ABI_RC.Systems.Camera;
+using ABI_RC.Systems.Camera.VisualMods;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -102,5 +103,6 @@ namespace Sketch.PortableCameraEnchancements.VisualMods
                 }
 
         }
+
     }
 }

@@ -703,6 +703,7 @@
 		<Compile Include="Main.cs" />
 		<Compile Include="Properties\AssemblyInfo.cs" />
 		<Compile Include="VisualMods\CameraEnhancements.cs" />
+		<Compile Include="VisualMods\LocalAttachment.cs" />
 	</ItemGroup>
 	
 	<Target Name="PostBuild" AfterTargets="PostBuildEvent">

@@ -5,6 +5,8 @@ using ABI_RC.Systems.Movement;
 using System.Reflection;
 using System;
 using ABI_RC.Systems.Camera;
+using MelonLoader;
+using Sketch.PortableCameraEnchancements.VisualMods;
 
 namespace Sketch.PortableCameraEnchancements.HarmonyPatches
 {
@@ -84,12 +86,30 @@ namespace Sketch.PortableCameraEnchancements.HarmonyPatches
         {
             VisualMods.CameraEnhancements mainMod = new();
             mainMod.Setup(__instance);
+            __instance.RegisterMod(new LocalAttachment());
+            MelonLogger.Msg("Registered LocalAttachment mod.");
+
         }
         [HarmonyPostfix]
         [HarmonyPatch(typeof(PortableCamera), nameof(PortableCamera.UpdateOptionsDisplay))]
         private static void Postfix_PortableCamera_UpdateOptionsDisplay(ref bool ____showExpertSettings)
         {
             VisualMods.CameraEnhancements.Instance?.OnUpdateOptionsDisplay(____showExpertSettings);
+        }
+
+        [HarmonyPatch(typeof(CameraAttachment), nameof(CameraAttachment.Enable))]
+        public static class CameraAttachment_Enable_Patch
+        {
+            static void Postfix(CameraAttachment __instance)
+            {
+                var portableCameraField = AccessTools.Field(typeof(CameraAttachment), "_portableCamera");
+                var portableCamera = portableCameraField.GetValue(__instance) as PortableCamera;
+
+                if (portableCamera != null)
+                {
+                    portableCamera.DisableModByType(typeof(LocalAttachment));
+                }
+            }
         }
     }
 
