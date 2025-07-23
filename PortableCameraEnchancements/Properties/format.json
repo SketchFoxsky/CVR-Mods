@@ -1,0 +1,20 @@
+{
+  "_id": -1,
+  "name": "The name of your mod",
+  "modversion": "The version of your mod",
+  "gameversion": "The latest version of the game your mod works on",
+  "loaderversion": "The MelonLoader version your mod runs on",
+  "modtype": "Must be \"Mod\" or \"Plugin\" (Practically always a mod)",
+  "author": "You!",
+  "description": "Must be less than or equal to 4096 chars",
+  "searchtags": [
+    "An array of strings that will be checked against when a user searches for mods"
+  ],
+  "requirements": [
+    "An array of (preferably) markdown links (\"[viewable text](link url)\") that point to the requirements of your mod"
+  ],
+  "downloadlink": "The link to your DLL",
+  "sourcelink": "The link to your mods source",
+  "changelog": "What has changed since you last updated?",
+  "embedcolor": "A hex formatted color string"
+}

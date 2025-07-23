@@ -6,12 +6,12 @@ using ABI.CCK.Components;
 using ABI_RC.API;
 using ABI_RC.Core.Player;
 
-namespace Sketch.PortableCameraEnchancements
+namespace Sketch.PortableCameraEnhancements
 {
-    public class PortableCameraEnchancements : MelonMod
+    public class PortableCameraEnhancements : MelonMod
     {
         #region MelonLoader Preferences
-        private const string SettingsCategory = nameof(PortableCameraEnchancements);
+        private const string SettingsCategory = nameof(PortableCameraEnhancements);
 
         private static readonly MelonPreferences_Category Category = MelonPreferences.CreateCategory(SettingsCategory);
 
@@ -77,6 +77,8 @@ namespace Sketch.PortableCameraEnchancements
         private void LoadLocalAvatar()
         {
             AvatarAnimator = PlayerSetup.Instance._animator;
+            //Use this for nightly
+            // AvatarAnimator = PlayerSetup.Instance.Animator;
             if (!AvatarAnimator.isHuman)
             {
                 UseDefaultTarget = true;

@@ -4,7 +4,7 @@ using ABI_RC.Systems.Camera.VisualMods;
 using MelonLoader;
 using ABI_RC.Systems.Camera;
 
-namespace Sketch.PortableCameraEnchancements.VisualMods
+namespace Sketch.PortableCameraEnhancements.VisualMods
 {
     public class LocalAttachment : ICameraVisualMod
     {

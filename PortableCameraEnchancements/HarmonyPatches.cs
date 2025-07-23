@@ -6,9 +6,9 @@ using System.Reflection;
 using System;
 using ABI_RC.Systems.Camera;
 using MelonLoader;
-using Sketch.PortableCameraEnchancements.VisualMods;
+using Sketch.PortableCameraEnhancements.VisualMods;
 
-namespace Sketch.PortableCameraEnchancements.HarmonyPatches
+namespace Sketch.PortableCameraEnhancements.HarmonyPatches
 {
     [HarmonyPatch(typeof(PlayerFaceTracking), nameof(PlayerFaceTracking.Update))]
     public static class PlayerFaceTracking_Update_PrefixPatch
@@ -31,7 +31,7 @@ namespace Sketch.PortableCameraEnchancements.HarmonyPatches
             Vector3 defaultTarget = BetterBetterCharacterController.Instance.RotationPivot.position;
 
             // Use mod settings and bones
-            if (!PortableCameraEnchancements.UseNewLookTarget || PortableCameraEnchancements.Head == null)
+            if (!PortableCameraEnhancements.UseNewLookTarget || PortableCameraEnhancements.Head == null)
             {
                 // Just do original behavior (look at default target)
                 RotateCameraTowards(cameraTransform, defaultTarget);
@@ -42,11 +42,11 @@ namespace Sketch.PortableCameraEnchancements.HarmonyPatches
             float distance = Vector3.Distance(cameraTransform.position, defaultTarget);
 
             // Scale with player height cause duh 1m for tiny people is not the same for big people
-            float avatarHeight = PortableCameraEnchancements.GetAvatarHeight();
+            float avatarHeight = PortableCameraEnhancements.GetAvatarHeight();
             float scale = avatarHeight / 1.75f;
 
-            float min = PortableCameraEnchancements.BlendMinDistance * scale;
-            float max = PortableCameraEnchancements.BlendMaxDistance * scale;
+            float min = PortableCameraEnhancements.BlendMinDistance * scale;
+            float max = PortableCameraEnhancements.BlendMaxDistance * scale;
 
             // Clamp and normalize between min and max
             float t = Mathf.InverseLerp(min, max, distance); // 0 = close, 1 = far
@@ -56,14 +56,14 @@ namespace Sketch.PortableCameraEnchancements.HarmonyPatches
 
             Vector3 blendedTarget;
 
-            if (PortableCameraEnchancements.AutoBlendTargets)
+            if (PortableCameraEnhancements.AutoBlendTargets)
             {
-                blendedTarget = Vector3.Lerp(defaultTarget, PortableCameraEnchancements.ModdedTarget, blendFactor);
-                PortableCameraEnchancements.BlendedTarget = blendedTarget;
+                blendedTarget = Vector3.Lerp(defaultTarget, PortableCameraEnhancements.ModdedTarget, blendFactor);
+                PortableCameraEnhancements.BlendedTarget = blendedTarget;
             }
             else
             {
-                blendedTarget = PortableCameraEnchancements.ModdedTarget;
+                blendedTarget = PortableCameraEnhancements.ModdedTarget;
             }
 
             RotateCameraTowards(cameraTransform, blendedTarget);

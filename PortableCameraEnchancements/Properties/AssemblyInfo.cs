@@ -1,10 +1,10 @@
-﻿using Sketch.PortableCameraEnchancements.Properties;
+﻿using Sketch.PortableCameraEnhancements.Properties;
 using MelonLoader;
 using System.Reflection;
 
 [assembly: MelonInfo(
-    typeof(Sketch.PortableCameraEnchancements.PortableCameraEnchancements),
-    nameof(Sketch.PortableCameraEnchancements),
+    typeof(Sketch.PortableCameraEnhancements.PortableCameraEnhancements),
+    nameof(Sketch.PortableCameraEnhancements),
     AssemblyInfoParams.Version,
     AssemblyInfoParams.Author,
     downloadLink: "https://github.com/SketchFoxsky/CVR-Mods/tree/main/SourceMovement"
@@ -17,7 +17,7 @@ using System.Reflection;
 [assembly: MelonAuthorColor(255, 40, 144, 209)] 
 [assembly: HarmonyDontPatchAll]
 
-namespace Sketch.PortableCameraEnchancements.Properties
+namespace Sketch.PortableCameraEnhancements.Properties
 {
     internal static class AssemblyInfoParams
     {

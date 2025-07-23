@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Sketch.PortableCameraEnchancements.VisualMods
+namespace Sketch.PortableCameraEnhancements.VisualMods
 {
     public class CameraEnhancements
     {
@@ -80,11 +80,11 @@ namespace Sketch.PortableCameraEnchancements.VisualMods
                 {
                     //Tracking Settings
                     case "UseNewLookTarget":
-                        PortableCameraEnchancements.UseNewLookTarget = value;
+                        PortableCameraEnhancements.UseNewLookTarget = value;
                         break;
                     //Internal Settings
                     case "UseBlending":
-                            PortableCameraEnchancements.AutoBlendTargets = value;
+                            PortableCameraEnhancements.AutoBlendTargets = value;
                         break;
                 }
         }
@@ -95,10 +95,10 @@ namespace Sketch.PortableCameraEnchancements.VisualMods
                 {
                     //Camera Settings
                     case "MinDistance":
-                        PortableCameraEnchancements.BlendMinDistance = value;
+                        PortableCameraEnhancements.BlendMinDistance = value;
                         break;
                     case "MaxDistance":
-                        PortableCameraEnchancements.BlendMaxDistance = value;
+                        PortableCameraEnhancements.BlendMaxDistance = value;
                         break;
                 }
 

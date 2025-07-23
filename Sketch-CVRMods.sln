@@ -15,7 +15,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhysicSounds", "PhysicSound
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImmersivePortals", "ImmersivePortals\ImmersivePortals.csproj", "{36141CA6-CAF8-4C1C-A44C-7F489F630F80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortableCameraEnchancements", "PortableCameraEnchancements\PortableCameraEnchancements.csproj", "{927A8B9D-D60E-4ACA-9468-7CAA196CA5CA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortableCameraEnhancements", "PortableCameraEnchancements\PortableCameraEnhancements.csproj", "{927A8B9D-D60E-4ACA-9468-7CAA196CA5CA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
