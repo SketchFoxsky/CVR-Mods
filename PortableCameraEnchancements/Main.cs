@@ -76,7 +76,7 @@ namespace Sketch.PortableCameraEnchancements
 
         private void LoadLocalAvatar()
         {
-            AvatarAnimator = PlayerSetup.Instance.Animator;
+            AvatarAnimator = PlayerSetup.Instance._animator;
             if (!AvatarAnimator.isHuman)
             {
                 UseDefaultTarget = true;
