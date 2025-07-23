@@ -76,9 +76,9 @@ namespace Sketch.PortableCameraEnhancements
 
         private void LoadLocalAvatar()
         {
-            AvatarAnimator = PlayerSetup.Instance._animator;
-            //Use this for nightly
-            // AvatarAnimator = PlayerSetup.Instance.Animator;
+            //Use this for r179 Stable
+            //AvatarAnimator = PlayerSetup.Instance._animator;
+            AvatarAnimator = PlayerSetup.Instance.Animator;
             if (!AvatarAnimator.isHuman)
             {
                 UseDefaultTarget = true;

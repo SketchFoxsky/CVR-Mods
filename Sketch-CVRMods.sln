@@ -15,7 +15,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhysicSounds", "PhysicSound
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImmersivePortals", "ImmersivePortals\ImmersivePortals.csproj", "{36141CA6-CAF8-4C1C-A44C-7F489F630F80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortableCameraEnhancements", "PortableCameraEnchancements\PortableCameraEnhancements.csproj", "{927A8B9D-D60E-4ACA-9468-7CAA196CA5CA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortableCameraEnhancements", "PortableCameraEnhancements\PortableCameraEnhancements.csproj", "{E7A6919D-EAD1-43B3-BF05-9DFA363EB3AB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,10 +47,10 @@ Global
 		{36141CA6-CAF8-4C1C-A44C-7F489F630F80}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{36141CA6-CAF8-4C1C-A44C-7F489F630F80}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{36141CA6-CAF8-4C1C-A44C-7F489F630F80}.Release|Any CPU.Build.0 = Release|Any CPU
-		{927A8B9D-D60E-4ACA-9468-7CAA196CA5CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{927A8B9D-D60E-4ACA-9468-7CAA196CA5CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{927A8B9D-D60E-4ACA-9468-7CAA196CA5CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{927A8B9D-D60E-4ACA-9468-7CAA196CA5CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7A6919D-EAD1-43B3-BF05-9DFA363EB3AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7A6919D-EAD1-43B3-BF05-9DFA363EB3AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7A6919D-EAD1-43B3-BF05-9DFA363EB3AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7A6919D-EAD1-43B3-BF05-9DFA363EB3AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

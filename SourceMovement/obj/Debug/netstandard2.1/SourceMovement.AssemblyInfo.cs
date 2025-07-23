@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SourceMovement")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b39a876106590dacbdf3f7607cca1b3dbf10d8d1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+61632291c6cf19f234796cadcbab2d51e8cc8b3c")]
 [assembly: System.Reflection.AssemblyProductAttribute("SourceMovement")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SourceMovement")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

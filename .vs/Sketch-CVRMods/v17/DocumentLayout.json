@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E7A6919D-EAD1-43B3-BF05-9DFA363EB3AB}|PortableCameraEnhancements\\PortableCameraEnhancements.csproj|c:\\users\\leona\\documents\\sketch cvr mods\\cvr-mods\\portablecameraenhancements\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7A6919D-EAD1-43B3-BF05-9DFA363EB3AB}|PortableCameraEnhancements\\PortableCameraEnhancements.csproj|solutionrelative:portablecameraenhancements\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Main.cs",
+              "DocumentMoniker": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\PortableCameraEnhancements\\Main.cs",
+              "RelativeDocumentMoniker": "PortableCameraEnhancements\\Main.cs",
+              "ToolTip": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\PortableCameraEnhancements\\Main.cs",
+              "RelativeToolTip": "PortableCameraEnhancements\\Main.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAFEAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T20:17:35.522Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
