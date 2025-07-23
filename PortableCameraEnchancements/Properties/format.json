@@ -1,20 +1,24 @@
 {
   "_id": -1,
-  "name": "The name of your mod",
-  "modversion": "The version of your mod",
-  "gameversion": "The latest version of the game your mod works on",
-  "loaderversion": "The MelonLoader version your mod runs on",
-  "modtype": "Must be \"Mod\" or \"Plugin\" (Practically always a mod)",
-  "author": "You!",
-  "description": "Must be less than or equal to 4096 chars",
+  "name": "Portable Camera Enhancements",
+  "modversion": "1.0.0",
+  "gameversion": "2025r179",
+  "loaderversion": "0.6.6",
+  "modtype": "Mod",
+  "author": "SketchFoxsky",
+  "description": "Lock your camera in Local Space, Track not just your head but your WHOLE avatar! More to come in the future!",
   "searchtags": [
-    "An array of strings that will be checked against when a user searches for mods"
+    "Camera",
+    "Player Tracking",
+    "Cam",
+    "Stream",
+    "PlaySpace"
   ],
   "requirements": [
-    "An array of (preferably) markdown links (\"[viewable text](link url)\") that point to the requirements of your mod"
+    "None"
   ],
-  "downloadlink": "The link to your DLL",
-  "sourcelink": "The link to your mods source",
-  "changelog": "What has changed since you last updated?",
-  "embedcolor": "A hex formatted color string"
+  "downloadlink": "https://github.com/SketchFoxsky/CVR-Mods/releases/download/Releases/PortableCameraEnhancements.dll",
+  "sourcelink": "https://github.com/SketchFoxsky/CVR-Mods/tree/main/PortableCameraEnhancements",
+  "changelog": "Initial release",
+  "embedcolor": "#fcba03"
 }
