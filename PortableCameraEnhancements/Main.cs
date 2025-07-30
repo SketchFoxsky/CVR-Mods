@@ -102,7 +102,7 @@ namespace Sketch.PortableCameraEnhancements
                 return;
             Vector3 feet =(FootL.position + FootR.position) / 2f;
             Vector3 rawTarget = (Head.position + Chest.position + Hips.position + feet) / 4f;
-            ModdedTarget = Vector3.Lerp(ModdedTarget, rawTarget, Time.deltaTime * 10f); // 10f is the Smooth to prevent micro stutters when moving in local space.
+            ModdedTarget = Vector3.Lerp(ModdedTarget, rawTarget, Time.deltaTime * 100f); // 100f is the Smooth to prevent micro stutters when moving in local space.
 
         }
 
