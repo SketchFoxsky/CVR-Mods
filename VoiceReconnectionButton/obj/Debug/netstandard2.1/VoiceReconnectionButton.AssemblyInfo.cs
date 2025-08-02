@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VoiceReconnectionButton")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8706dc0124a2882dc4b8e78956aa56cb18e2c222")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+88d28a31f5581eb875cc4507f17d5eda1e2c8e90")]
 [assembly: System.Reflection.AssemblyProductAttribute("VoiceReconnectionButton")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VoiceReconnectionButton")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

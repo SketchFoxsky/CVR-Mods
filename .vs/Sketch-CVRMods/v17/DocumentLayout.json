@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{15544DFB-9AC3-45A2-A7B7-9C6F09F42EAD}|VoiceReconnectionButton\\VoiceReconnectionButton.csproj|c:\\users\\leona\\documents\\sketch cvr mods\\cvr-mods\\voicereconnectionbutton\\core.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{15544DFB-9AC3-45A2-A7B7-9C6F09F42EAD}|VoiceReconnectionButton\\VoiceReconnectionButton.csproj|solutionrelative:voicereconnectionbutton\\core.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2803AA81-06AE-4689-B50A-4B2DB54F522B}|VoiceReconnectionButton\\VoiceReconnectionButton.csproj|c:\\users\\leona\\documents\\sketch cvr mods\\cvr-mods\\voicereconnectionbutton\\core.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2803AA81-06AE-4689-B50A-4B2DB54F522B}|VoiceReconnectionButton\\VoiceReconnectionButton.csproj|solutionrelative:voicereconnectionbutton\\core.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17EAB855-833B-45D1-8B92-CFBFA1BD58DD}|SourceMovement\\SourceMovement.csproj|c:\\users\\leona\\documents\\sketch cvr mods\\cvr-mods\\sourcemovement\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17EAB855-833B-45D1-8B92-CFBFA1BD58DD}|SourceMovement\\SourceMovement.csproj|solutionrelative:sourcemovement\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,17 +18,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Main.cs",
+              "DocumentMoniker": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\SourceMovement\\Main.cs",
+              "RelativeDocumentMoniker": "SourceMovement\\Main.cs",
+              "ToolTip": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\SourceMovement\\Main.cs",
+              "RelativeToolTip": "SourceMovement\\Main.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T00:49:01.562Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Core.cs",
               "DocumentMoniker": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\VoiceReconnectionButton\\Core.cs",
               "RelativeDocumentMoniker": "VoiceReconnectionButton\\Core.cs",
-              "ToolTip": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\VoiceReconnectionButton\\Core.cs*",
-              "RelativeToolTip": "VoiceReconnectionButton\\Core.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAATAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\VoiceReconnectionButton\\Core.cs",
+              "RelativeToolTip": "VoiceReconnectionButton\\Core.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAHIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-01T23:45:36.023Z",
               "EditorCaption": ""
