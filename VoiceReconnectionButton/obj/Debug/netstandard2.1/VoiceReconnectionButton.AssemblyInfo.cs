@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("CinematicThirdPerson")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("VoiceReconnectionButton")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8706dc0124a2882dc4b8e78956aa56cb18e2c222")]
-[assembly: System.Reflection.AssemblyProductAttribute("CinematicThirdPerson")]
-[assembly: System.Reflection.AssemblyTitleAttribute("CinematicThirdPerson")]
+[assembly: System.Reflection.AssemblyProductAttribute("VoiceReconnectionButton")]
+[assembly: System.Reflection.AssemblyTitleAttribute("VoiceReconnectionButton")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 [assembly: System.Resources.NeutralResourcesLanguageAttribute("en-US")]
 
