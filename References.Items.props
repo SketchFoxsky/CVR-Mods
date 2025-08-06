@@ -20,6 +20,10 @@
             <HintPath>$(MsBuildThisFileDirectory)\.ManagedLibs\Assembly-CSharp.dll</HintPath>
             <Private>False</Private>
         </Reference>
+        <Reference Include="AsyncImageLoader.Runtime">
+            <HintPath>$(MsBuildThisFileDirectory)\.ManagedLibs\AsyncImageLoader.Runtime.dll</HintPath>
+            <Private>False</Private>
+        </Reference>
         <Reference Include="AVProVideo.Extensions.Timeline">
             <HintPath>$(MsBuildThisFileDirectory)\.ManagedLibs\AVProVideo.Extensions.Timeline.dll</HintPath>
             <Private>False</Private>

@@ -381,3 +381,5 @@ NStrip.exe
 /SourceMovement/obj
 /SourceMovement/obj
 /VoiceReconnectionButton/bin
+/LocalMomentumTeleport/bin
+/LocalMomentumTeleport/obj

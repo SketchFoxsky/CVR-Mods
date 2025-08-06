@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2803AA81-06AE-4689-B50A-4B2DB54F522B}|VoiceReconnectionButton\\VoiceReconnectionButton.csproj|c:\\users\\leona\\documents\\sketch cvr mods\\cvr-mods\\voicereconnectionbutton\\core.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2803AA81-06AE-4689-B50A-4B2DB54F522B}|VoiceReconnectionButton\\VoiceReconnectionButton.csproj|solutionrelative:voicereconnectionbutton\\core.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{579869EF-9650-4709-A399-6A4DDF1D3EA6}|LocalMomentumTeleport\\LocalMomentumTeleport.csproj|c:\\users\\leona\\documents\\sketch cvr mods\\cvr-mods\\localmomentumteleport\\localmomentumteleport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{579869EF-9650-4709-A399-6A4DDF1D3EA6}|LocalMomentumTeleport\\LocalMomentumTeleport.csproj|solutionrelative:localmomentumteleport\\localmomentumteleport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17EAB855-833B-45D1-8B92-CFBFA1BD58DD}|SourceMovement\\SourceMovement.csproj|c:\\users\\leona\\documents\\sketch cvr mods\\cvr-mods\\sourcemovement\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17EAB855-833B-45D1-8B92-CFBFA1BD58DD}|SourceMovement\\SourceMovement.csproj|solutionrelative:sourcemovement\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{579869EF-9650-4709-A399-6A4DDF1D3EA6}|LocalMomentumTeleport\\LocalMomentumTeleport.csproj|c:\\users\\leona\\documents\\sketch cvr mods\\cvr-mods\\localmomentumteleport\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{579869EF-9650-4709-A399-6A4DDF1D3EA6}|LocalMomentumTeleport\\LocalMomentumTeleport.csproj|solutionrelative:localmomentumteleport\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{063CD98D-9094-437C-8C49-B40E3B9FAB3A}|PhysicSounds\\PhysicSounds.csproj|c:\\users\\leona\\documents\\sketch cvr mods\\cvr-mods\\physicsounds\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{063CD98D-9094-437C-8C49-B40E3B9FAB3A}|PhysicSounds\\PhysicSounds.csproj|solutionrelative:physicsounds\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{063CD98D-9094-437C-8C49-B40E3B9FAB3A}|PhysicSounds\\PhysicSounds.csproj|c:\\users\\leona\\documents\\sketch cvr mods\\cvr-mods\\physicsounds\\physicsound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{063CD98D-9094-437C-8C49-B40E3B9FAB3A}|PhysicSounds\\PhysicSounds.csproj|solutionrelative:physicsounds\\physicsound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Main.cs",
-              "DocumentMoniker": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\SourceMovement\\Main.cs",
-              "RelativeDocumentMoniker": "SourceMovement\\Main.cs",
-              "ToolTip": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\SourceMovement\\Main.cs",
-              "RelativeToolTip": "SourceMovement\\Main.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "LocalMomentumTeleport.cs",
+              "DocumentMoniker": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\LocalMomentumTeleport\\LocalMomentumTeleport.cs",
+              "RelativeDocumentMoniker": "LocalMomentumTeleport\\LocalMomentumTeleport.cs",
+              "ToolTip": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\LocalMomentumTeleport\\LocalMomentumTeleport.cs",
+              "RelativeToolTip": "LocalMomentumTeleport\\LocalMomentumTeleport.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAmwEUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-02T00:49:01.562Z",
+              "WhenOpened": "2025-08-06T04:49:13.016Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Core.cs",
-              "DocumentMoniker": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\VoiceReconnectionButton\\Core.cs",
-              "RelativeDocumentMoniker": "VoiceReconnectionButton\\Core.cs",
-              "ToolTip": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\VoiceReconnectionButton\\Core.cs",
-              "RelativeToolTip": "VoiceReconnectionButton\\Core.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAHIAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "PhysicSound.cs",
+              "DocumentMoniker": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\PhysicSounds\\PhysicSound.cs",
+              "RelativeDocumentMoniker": "PhysicSounds\\PhysicSound.cs",
+              "ToolTip": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\PhysicSounds\\PhysicSound.cs",
+              "RelativeToolTip": "PhysicSounds\\PhysicSound.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-01T23:45:36.023Z",
+              "WhenOpened": "2025-08-06T04:48:53.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Main.cs",
+              "DocumentMoniker": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\PhysicSounds\\Main.cs",
+              "RelativeDocumentMoniker": "PhysicSounds\\Main.cs",
+              "ToolTip": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\PhysicSounds\\Main.cs",
+              "RelativeToolTip": "PhysicSounds\\Main.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T04:48:47.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Main.cs",
+              "DocumentMoniker": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\LocalMomentumTeleport\\Main.cs",
+              "RelativeDocumentMoniker": "LocalMomentumTeleport\\Main.cs",
+              "ToolTip": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\LocalMomentumTeleport\\Main.cs",
+              "RelativeToolTip": "LocalMomentumTeleport\\Main.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T04:33:00.836Z",
               "EditorCaption": ""
             }
           ]
