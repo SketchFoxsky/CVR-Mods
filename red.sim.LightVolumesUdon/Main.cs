@@ -11,17 +11,13 @@ namespace red.sim.LightVolumesUdon
         public override void OnInitializeMelon()
         {
             //World Whitelist
-            WorldFilter._Base.Add(typeof(LightVolume));
-            WorldFilter._Base.Add(typeof(LightVolumeData));
-            WorldFilter._Base.Add(typeof(LightVolumeDataSorter));
             WorldFilter._Base.Add(typeof(LightVolumeInstance));
             WorldFilter._Base.Add(typeof(LightVolumeManager));
-            WorldFilter._Base.Add(typeof(LightVolumeSetup));
-            WorldFilter._Base.Add(typeof(PointLightVolume));
             WorldFilter._Base.Add(typeof(PointLightVolumeInstance));
-            //Prop Whitelist
+            //Prop Whitelist (Not sure if itll work or be worth it but having interior lighting would be nice for ships)
             SharedFilter.SpawnableWhitelist.Add(typeof(PointLightVolumeInstance));
-            SharedFilter.SpawnableWhitelist.Add(typeof(PointLightVolume));
+            SharedFilter.SpawnableWhitelist.Add(typeof(LightVolumeInstance));
+            SharedFilter.SpawnableWhitelist.Add(typeof(LightVolumeManager));
             MelonLogger.Msg("Initialized, now whitelisting modded components!");
         }
     }

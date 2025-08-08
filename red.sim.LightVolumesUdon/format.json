@@ -1,0 +1,26 @@
+{
+  "_id": 261,
+  "name": "LightVolumesUdon",
+  "modversion": "1.0.0",
+  "gameversion": "2025r180",
+  "loaderversion": "0.6.6",
+  "modtype": "Mod",
+  "author": "REDSIM, SketchFoxsky",
+  "description": "Whitelist for REDSIM's VRCLightVolumes, experience voxel based dynamic Volumetric light.",
+  "searchtags": [
+    "Volume",
+    "Light",
+    "Volumetric",
+    "Lighting",
+    "REDSIM",
+    "VRC",
+    "VRChat"
+  ],
+  "requirements": [
+    ""
+  ],
+  "downloadlink": "https://github.com/SketchFoxsky/CVR-Mods/releases/download/Releases/red.sim.LightVolumesUdon.dll",
+  "sourcelink": "https://github.com/SketchFoxsky/CVR-Mods/tree/main/red.sim.LightVolumesUdon",
+  "changelog": "Initial Release",
+  "embedcolor": "#eb4034"
+}
