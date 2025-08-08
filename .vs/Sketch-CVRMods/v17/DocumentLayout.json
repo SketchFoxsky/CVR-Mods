@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{579869EF-9650-4709-A399-6A4DDF1D3EA6}|LocalMomentumTeleport\\LocalMomentumTeleport.csproj|c:\\users\\leona\\documents\\sketch cvr mods\\cvr-mods\\localmomentumteleport\\localmomentumteleport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{579869EF-9650-4709-A399-6A4DDF1D3EA6}|LocalMomentumTeleport\\LocalMomentumTeleport.csproj|solutionrelative:localmomentumteleport\\localmomentumteleport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{118153F4-E134-4F9B-85CB-D9290101C226}|red.sim.LightVolumesUdon\\red.sim.LightVolumesUdon.csproj|c:\\users\\leona\\documents\\sketch cvr mods\\cvr-mods\\red.sim.lightvolumesudon\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{118153F4-E134-4F9B-85CB-D9290101C226}|red.sim.LightVolumesUdon\\red.sim.LightVolumesUdon.csproj|solutionrelative:red.sim.lightvolumesudon\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{579869EF-9650-4709-A399-6A4DDF1D3EA6}|LocalMomentumTeleport\\LocalMomentumTeleport.csproj|c:\\users\\leona\\documents\\sketch cvr mods\\cvr-mods\\localmomentumteleport\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{579869EF-9650-4709-A399-6A4DDF1D3EA6}|LocalMomentumTeleport\\LocalMomentumTeleport.csproj|solutionrelative:localmomentumteleport\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{118153F4-E134-4F9B-85CB-D9290101C226}|red.sim.LightVolumesUdon\\red.sim.LightVolumesUdon.csproj|c:\\users\\leona\\documents\\sketch cvr mods\\cvr-mods\\red.sim.lightvolumesudon\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{118153F4-E134-4F9B-85CB-D9290101C226}|red.sim.LightVolumesUdon\\red.sim.LightVolumesUdon.csproj|solutionrelative:red.sim.lightvolumesudon\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{063CD98D-9094-437C-8C49-B40E3B9FAB3A}|PhysicSounds\\PhysicSounds.csproj|c:\\users\\leona\\documents\\sketch cvr mods\\cvr-mods\\physicsounds\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{063CD98D-9094-437C-8C49-B40E3B9FAB3A}|PhysicSounds\\PhysicSounds.csproj|solutionrelative:physicsounds\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{063CD98D-9094-437C-8C49-B40E3B9FAB3A}|PhysicSounds\\PhysicSounds.csproj|c:\\users\\leona\\documents\\sketch cvr mods\\cvr-mods\\physicsounds\\physicsound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{063CD98D-9094-437C-8C49-B40E3B9FAB3A}|PhysicSounds\\PhysicSounds.csproj|solutionrelative:physicsounds\\physicsound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2E044285-DD70-43BB-AA2A-FE7C5ACF82CD}|red.sim.LightVolumes\\red.sim.LightVolumes.csproj|c:\\users\\leona\\documents\\sketch cvr mods\\cvr-mods\\red.sim.lightvolumes\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E044285-DD70-43BB-AA2A-FE7C5ACF82CD}|red.sim.LightVolumes\\red.sim.LightVolumes.csproj|solutionrelative:red.sim.lightvolumes\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LocalMomentumTeleport.cs",
-              "DocumentMoniker": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\LocalMomentumTeleport\\LocalMomentumTeleport.cs",
-              "RelativeDocumentMoniker": "LocalMomentumTeleport\\LocalMomentumTeleport.cs",
-              "ToolTip": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\LocalMomentumTeleport\\LocalMomentumTeleport.cs",
-              "RelativeToolTip": "LocalMomentumTeleport\\LocalMomentumTeleport.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAmwEUAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Main.cs",
+              "DocumentMoniker": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\red.sim.LightVolumesUdon\\Main.cs",
+              "RelativeDocumentMoniker": "red.sim.LightVolumesUdon\\Main.cs",
+              "ToolTip": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\red.sim.LightVolumesUdon\\Main.cs",
+              "RelativeToolTip": "red.sim.LightVolumesUdon\\Main.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-06T04:49:13.016Z",
+              "WhenOpened": "2025-08-08T05:25:46.02Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PhysicSound.cs",
-              "DocumentMoniker": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\PhysicSounds\\PhysicSound.cs",
-              "RelativeDocumentMoniker": "PhysicSounds\\PhysicSound.cs",
-              "ToolTip": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\PhysicSounds\\PhysicSound.cs",
-              "RelativeToolTip": "PhysicSounds\\PhysicSound.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\red.sim.LightVolumesUdon\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "red.sim.LightVolumesUdon\\Properties\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\red.sim.LightVolumesUdon\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "red.sim.LightVolumesUdon\\Properties\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-06T04:48:53.312Z",
+              "WhenOpened": "2025-08-08T05:25:15.696Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Main.cs",
-              "DocumentMoniker": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\PhysicSounds\\Main.cs",
-              "RelativeDocumentMoniker": "PhysicSounds\\Main.cs",
-              "ToolTip": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\PhysicSounds\\Main.cs",
-              "RelativeToolTip": "PhysicSounds\\Main.cs",
+              "DocumentMoniker": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\red.sim.LightVolumes\\Main.cs",
+              "RelativeDocumentMoniker": "red.sim.LightVolumes\\Main.cs",
+              "ToolTip": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\red.sim.LightVolumes\\Main.cs",
+              "RelativeToolTip": "red.sim.LightVolumes\\Main.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-06T04:48:47.192Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Main.cs",
-              "DocumentMoniker": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\LocalMomentumTeleport\\Main.cs",
-              "RelativeDocumentMoniker": "LocalMomentumTeleport\\Main.cs",
-              "ToolTip": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\LocalMomentumTeleport\\Main.cs",
-              "RelativeToolTip": "LocalMomentumTeleport\\Main.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-06T04:33:00.836Z",
+              "WhenOpened": "2025-08-08T05:24:11.819Z",
               "EditorCaption": ""
             }
           ]

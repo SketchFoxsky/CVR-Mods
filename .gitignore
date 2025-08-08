@@ -383,3 +383,5 @@ NStrip.exe
 /VoiceReconnectionButton/bin
 /LocalMomentumTeleport/bin
 /LocalMomentumTeleport/obj
+/red.sim.LightVolumesUdon/obj
+/red.sim.LightVolumes/obj

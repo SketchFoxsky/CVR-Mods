@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoiceReconnectionButton", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocalMomentumTeleport", "LocalMomentumTeleport\LocalMomentumTeleport.csproj", "{579869EF-9650-4709-A399-6A4DDF1D3EA6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "red.sim.LightVolumes", "red.sim.LightVolumes\red.sim.LightVolumes.csproj", "{2E044285-DD70-43BB-AA2A-FE7C5ACF82CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "red.sim.LightVolumesUdon", "red.sim.LightVolumesUdon\red.sim.LightVolumesUdon.csproj", "{118153F4-E134-4F9B-85CB-D9290101C226}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +61,14 @@ Global
 		{579869EF-9650-4709-A399-6A4DDF1D3EA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{579869EF-9650-4709-A399-6A4DDF1D3EA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{579869EF-9650-4709-A399-6A4DDF1D3EA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E044285-DD70-43BB-AA2A-FE7C5ACF82CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E044285-DD70-43BB-AA2A-FE7C5ACF82CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E044285-DD70-43BB-AA2A-FE7C5ACF82CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E044285-DD70-43BB-AA2A-FE7C5ACF82CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{118153F4-E134-4F9B-85CB-D9290101C226}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{118153F4-E134-4F9B-85CB-D9290101C226}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{118153F4-E134-4F9B-85CB-D9290101C226}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{118153F4-E134-4F9B-85CB-D9290101C226}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
