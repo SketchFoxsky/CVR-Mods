@@ -385,3 +385,5 @@ NStrip.exe
 /LocalMomentumTeleport/obj
 /red.sim.LightVolumesUdon/obj
 /red.sim.LightVolumes/obj
+/red.sim.LightVolumes/Scripts
+/red.sim.LightVolumesUdon/Scripts
