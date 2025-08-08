@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{118153F4-E134-4F9B-85CB-D9290101C226}|red.sim.LightVolumesUdon\\red.sim.LightVolumesUdon.csproj|c:\\users\\leona\\documents\\sketch cvr mods\\cvr-mods\\red.sim.lightvolumesudon\\scripts\\lightvolumesetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{118153F4-E134-4F9B-85CB-D9290101C226}|red.sim.LightVolumesUdon\\red.sim.LightVolumesUdon.csproj|solutionrelative:red.sim.lightvolumesudon\\scripts\\lightvolumesetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{118153F4-E134-4F9B-85CB-D9290101C226}|red.sim.LightVolumesUdon\\red.sim.LightVolumesUdon.csproj|c:\\users\\leona\\documents\\sketch cvr mods\\cvr-mods\\red.sim.lightvolumesudon\\scripts\\lightvolume.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{118153F4-E134-4F9B-85CB-D9290101C226}|red.sim.LightVolumesUdon\\red.sim.LightVolumesUdon.csproj|solutionrelative:red.sim.lightvolumesudon\\scripts\\lightvolume.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{118153F4-E134-4F9B-85CB-D9290101C226}|red.sim.LightVolumesUdon\\red.sim.LightVolumesUdon.csproj|c:\\users\\leona\\documents\\sketch cvr mods\\cvr-mods\\red.sim.lightvolumesudon\\scripts\\lightvolumedatasorter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{118153F4-E134-4F9B-85CB-D9290101C226}|red.sim.LightVolumesUdon\\red.sim.LightVolumesUdon.csproj|solutionrelative:red.sim.lightvolumesudon\\scripts\\lightvolumedatasorter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{118153F4-E134-4F9B-85CB-D9290101C226}|red.sim.LightVolumesUdon\\red.sim.LightVolumesUdon.csproj|c:\\users\\leona\\documents\\sketch cvr mods\\cvr-mods\\red.sim.lightvolumesudon\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{118153F4-E134-4F9B-85CB-D9290101C226}|red.sim.LightVolumesUdon\\red.sim.LightVolumesUdon.csproj|solutionrelative:red.sim.lightvolumesudon\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{118153F4-E134-4F9B-85CB-D9290101C226}|red.sim.LightVolumesUdon\\red.sim.LightVolumesUdon.csproj|c:\\users\\leona\\documents\\sketch cvr mods\\cvr-mods\\red.sim.lightvolumesudon\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{118153F4-E134-4F9B-85CB-D9290101C226}|red.sim.LightVolumesUdon\\red.sim.LightVolumesUdon.csproj|solutionrelative:red.sim.lightvolumesudon\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E044285-DD70-43BB-AA2A-FE7C5ACF82CD}|red.sim.LightVolumes\\red.sim.LightVolumes.csproj|c:\\users\\leona\\documents\\sketch cvr mods\\cvr-mods\\red.sim.lightvolumes\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E044285-DD70-43BB-AA2A-FE7C5ACF82CD}|red.sim.LightVolumes\\red.sim.LightVolumes.csproj|solutionrelative:red.sim.lightvolumes\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,46 +26,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Main.cs",
-              "DocumentMoniker": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\red.sim.LightVolumesUdon\\Main.cs",
-              "RelativeDocumentMoniker": "red.sim.LightVolumesUdon\\Main.cs",
-              "ToolTip": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\red.sim.LightVolumesUdon\\Main.cs",
-              "RelativeToolTip": "red.sim.LightVolumesUdon\\Main.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAyAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "LightVolumeSetup.cs",
+              "DocumentMoniker": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\red.sim.LightVolumesUdon\\Scripts\\LightVolumeSetup.cs",
+              "RelativeDocumentMoniker": "red.sim.LightVolumesUdon\\Scripts\\LightVolumeSetup.cs",
+              "ToolTip": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\red.sim.LightVolumesUdon\\Scripts\\LightVolumeSetup.cs",
+              "RelativeToolTip": "red.sim.LightVolumesUdon\\Scripts\\LightVolumeSetup.cs",
+              "ViewState": "AgIAAOEBAAAAAAAAAAAYwBECAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-08T05:25:46.02Z",
+              "WhenOpened": "2025-08-08T08:22:11.079Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "LightVolume.cs",
+              "DocumentMoniker": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\red.sim.LightVolumesUdon\\Scripts\\LightVolume.cs",
+              "RelativeDocumentMoniker": "red.sim.LightVolumesUdon\\Scripts\\LightVolume.cs",
+              "ToolTip": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\red.sim.LightVolumesUdon\\Scripts\\LightVolume.cs",
+              "RelativeToolTip": "red.sim.LightVolumesUdon\\Scripts\\LightVolume.cs",
+              "ViewState": "AgIAAAcCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T08:21:29.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LightVolumeDataSorter.cs",
+              "DocumentMoniker": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\red.sim.LightVolumesUdon\\Scripts\\LightVolumeDataSorter.cs",
+              "RelativeDocumentMoniker": "red.sim.LightVolumesUdon\\Scripts\\LightVolumeDataSorter.cs",
+              "ToolTip": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\red.sim.LightVolumesUdon\\Scripts\\LightVolumeDataSorter.cs",
+              "RelativeToolTip": "red.sim.LightVolumesUdon\\Scripts\\LightVolumeDataSorter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T08:21:25.84Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "AssemblyInfo.cs",
               "DocumentMoniker": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\red.sim.LightVolumesUdon\\Properties\\AssemblyInfo.cs",
               "RelativeDocumentMoniker": "red.sim.LightVolumesUdon\\Properties\\AssemblyInfo.cs",
               "ToolTip": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\red.sim.LightVolumesUdon\\Properties\\AssemblyInfo.cs",
               "RelativeToolTip": "red.sim.LightVolumesUdon\\Properties\\AssemblyInfo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-08T05:25:15.696Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Main.cs",
-              "DocumentMoniker": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\red.sim.LightVolumes\\Main.cs",
-              "RelativeDocumentMoniker": "red.sim.LightVolumes\\Main.cs",
-              "ToolTip": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\red.sim.LightVolumes\\Main.cs",
-              "RelativeToolTip": "red.sim.LightVolumes\\Main.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-08T05:24:11.819Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-08T05:25:15.696Z"
             }
           ]
         }
