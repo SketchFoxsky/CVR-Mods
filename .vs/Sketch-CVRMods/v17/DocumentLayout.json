@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{118153F4-E134-4F9B-85CB-D9290101C226}|red.sim.LightVolumesUdon\\red.sim.LightVolumesUdon.csproj|solutionrelative:red.sim.lightvolumesudon\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{118153F4-E134-4F9B-85CB-D9290101C226}|red.sim.LightVolumesUdon\\red.sim.LightVolumesUdon.csproj|c:\\users\\leona\\documents\\sketch cvr mods\\cvr-mods\\red.sim.lightvolumesudon\\scripts\\lightvolumeinstance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{118153F4-E134-4F9B-85CB-D9290101C226}|red.sim.LightVolumesUdon\\red.sim.LightVolumesUdon.csproj|solutionrelative:red.sim.lightvolumesudon\\scripts\\lightvolumeinstance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{118153F4-E134-4F9B-85CB-D9290101C226}|red.sim.LightVolumesUdon\\red.sim.LightVolumesUdon.csproj|c:\\users\\leona\\documents\\sketch cvr mods\\cvr-mods\\red.sim.lightvolumesudon\\scripts\\pointlightvolumeinstance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{118153F4-E134-4F9B-85CB-D9290101C226}|red.sim.LightVolumesUdon\\red.sim.LightVolumesUdon.csproj|solutionrelative:red.sim.lightvolumesudon\\scripts\\pointlightvolumeinstance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{118153F4-E134-4F9B-85CB-D9290101C226}|red.sim.LightVolumesUdon\\red.sim.LightVolumesUdon.csproj|c:\\users\\leona\\documents\\sketch cvr mods\\cvr-mods\\red.sim.lightvolumesudon\\scripts\\lightvolumemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{118153F4-E134-4F9B-85CB-D9290101C226}|red.sim.LightVolumesUdon\\red.sim.LightVolumesUdon.csproj|solutionrelative:red.sim.lightvolumesudon\\scripts\\lightvolumemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{118153F4-E134-4F9B-85CB-D9290101C226}|red.sim.LightVolumesUdon\\red.sim.LightVolumesUdon.csproj|c:\\users\\leona\\documents\\sketch cvr mods\\cvr-mods\\red.sim.lightvolumesudon\\scripts\\pointlightvolumeinstance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{118153F4-E134-4F9B-85CB-D9290101C226}|red.sim.LightVolumesUdon\\red.sim.LightVolumesUdon.csproj|solutionrelative:red.sim.lightvolumesudon\\scripts\\pointlightvolumeinstance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{118153F4-E134-4F9B-85CB-D9290101C226}|red.sim.LightVolumesUdon\\red.sim.LightVolumesUdon.csproj|c:\\users\\leona\\documents\\sketch cvr mods\\cvr-mods\\red.sim.lightvolumesudon\\scripts\\lightvolumeinstance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{118153F4-E134-4F9B-85CB-D9290101C226}|red.sim.LightVolumesUdon\\red.sim.LightVolumesUdon.csproj|solutionrelative:red.sim.lightvolumesudon\\scripts\\lightvolumeinstance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,13 +30,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "LightVolumeInstance.cs",
               "DocumentMoniker": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\red.sim.LightVolumesUdon\\Scripts\\LightVolumeInstance.cs",
               "RelativeDocumentMoniker": "red.sim.LightVolumesUdon\\Scripts\\LightVolumeInstance.cs",
               "ToolTip": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\red.sim.LightVolumesUdon\\Scripts\\LightVolumeInstance.cs",
               "RelativeToolTip": "red.sim.LightVolumesUdon\\Scripts\\LightVolumeInstance.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAEoAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-08T22:09:55.391Z",
               "EditorCaption": ""
@@ -49,21 +49,23 @@
               "RelativeDocumentMoniker": "red.sim.LightVolumesUdon\\Scripts\\LightVolumeManager.cs",
               "ToolTip": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\red.sim.LightVolumesUdon\\Scripts\\LightVolumeManager.cs",
               "RelativeToolTip": "red.sim.LightVolumesUdon\\Scripts\\LightVolumeManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADMBAAAAAAAAAAAAwFsBAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-08T22:09:52.847Z"
+              "WhenOpened": "2025-08-08T22:09:52.847Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "PointLightVolumeInstance.cs",
               "DocumentMoniker": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\red.sim.LightVolumesUdon\\Scripts\\PointLightVolumeInstance.cs",
               "RelativeDocumentMoniker": "red.sim.LightVolumesUdon\\Scripts\\PointLightVolumeInstance.cs",
               "ToolTip": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\red.sim.LightVolumesUdon\\Scripts\\PointLightVolumeInstance.cs",
               "RelativeToolTip": "red.sim.LightVolumesUdon\\Scripts\\PointLightVolumeInstance.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAOEAAAAAAAAAAAAAAAcBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-08T22:09:50.171Z"
+              "WhenOpened": "2025-08-08T22:09:50.171Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -73,7 +75,7 @@
               "RelativeDocumentMoniker": "red.sim.LightVolumesUdon\\Main.cs",
               "ToolTip": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\red.sim.LightVolumesUdon\\Main.cs",
               "RelativeToolTip": "red.sim.LightVolumesUdon\\Main.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-08T21:53:02.887Z",
               "EditorCaption": ""

@@ -1,4 +1,6 @@
-﻿using ABI_RC.API;
+﻿using ABI.CCK.Components;
+using ABI_RC.API;
+using ABI_RC.Core.InteractionSystem;
 using ABI_RC.Core.Util.AssetFiltering;
 using MelonLoader;
 using VRCLightVolumes;
@@ -11,9 +13,9 @@ namespace red.sim.LightVolumesUdon
         public override void OnInitializeMelon()
         {
             //World Whitelist
-            WorldFilter._Base.Add(typeof(LightVolumeInstance));
-            WorldFilter._Base.Add(typeof(LightVolumeManager));
-            WorldFilter._Base.Add(typeof(PointLightVolumeInstance));
+            WorldFilter._VolumetricFogAndMist.Add(typeof(LightVolumeInstance));
+            WorldFilter._VolumetricFogAndMist.Add(typeof(LightVolumeManager));
+            WorldFilter._VolumetricFogAndMist.Add(typeof(PointLightVolumeInstance));
             //Prop Whitelist (Not sure if itll work or be worth it but having interior lighting would be nice for ships)
             SharedFilter.SpawnableWhitelist.Add(typeof(PointLightVolumeInstance));
             SharedFilter.SpawnableWhitelist.Add(typeof(LightVolumeInstance));
