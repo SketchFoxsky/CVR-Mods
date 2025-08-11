@@ -16,10 +16,7 @@ namespace red.sim.LightVolumesUdon
             WorldFilter._VolumetricFogAndMist.Add(typeof(LightVolumeInstance));
             WorldFilter._VolumetricFogAndMist.Add(typeof(LightVolumeManager));
             WorldFilter._VolumetricFogAndMist.Add(typeof(PointLightVolumeInstance));
-            //Prop Whitelist (Not sure if itll work or be worth it but having interior lighting would be nice for ships)
-            SharedFilter.SpawnableWhitelist.Add(typeof(PointLightVolumeInstance));
-            SharedFilter.SpawnableWhitelist.Add(typeof(LightVolumeInstance));
-            SharedFilter.SpawnableWhitelist.Add(typeof(LightVolumeManager));
+
             MelonLogger.Msg("Initialized, now whitelisting modded components!");
         }
     }
