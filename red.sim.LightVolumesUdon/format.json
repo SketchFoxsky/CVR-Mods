@@ -21,6 +21,6 @@
   ],
   "downloadlink": "https://github.com/SketchFoxsky/CVR-Mods/releases/download/Releases/red.sim.LightVolumesUdon.dll",
   "sourcelink": "https://github.com/SketchFoxsky/CVR-Mods/tree/main/red.sim.LightVolumesUdon",
-  "changelog": "Initial Release, Removed VRCLightVolumes from prop whitelist",
+  "changelog": "Initial Release, Removed VRCLightVolumes from prop whitelist, Updated Developer info",
   "embedcolor": "#eb4034"
 }

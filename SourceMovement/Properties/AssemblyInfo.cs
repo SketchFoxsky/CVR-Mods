@@ -10,7 +10,7 @@ using System.Reflection;
     downloadLink: "https://github.com/SketchFoxsky/CVR-Mods/tree/main/SourceMovement"
 )]
 
-[assembly: MelonGame("Alpha Blend Interactive", "ChilloutVR")]
+[assembly: MelonGame("ChilloutVR", "ChilloutVR")]
 [assembly: MelonPlatform(MelonPlatformAttribute.CompatiblePlatforms.WINDOWS_X64)]
 [assembly: MelonPlatformDomain(MelonPlatformDomainAttribute.CompatibleDomains.MONO)]
 [assembly: MelonColor(255, 173, 100, 255)]

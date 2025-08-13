@@ -7,10 +7,10 @@ using System.Reflection;
     nameof(red.sim.LightVolumesUdon),
     AssemblyInfoParams.Version,
     AssemblyInfoParams.Author,
-    downloadLink: "N/A"
+    downloadLink: "https://github.com/SketchFoxsky/CVR-Mods/releases/download/Releases/red.sim.LightVolumesUdon.dll"
 )]
 
-[assembly: MelonGame("Alpha Blend Interactive", "ChilloutVR")]
+[assembly: MelonGame("ChilloutVR", "ChilloutVR")]
 [assembly: MelonPlatform(MelonPlatformAttribute.CompatiblePlatforms.WINDOWS_X64)]
 [assembly: MelonPlatformDomain(MelonPlatformDomainAttribute.CompatibleDomains.MONO)]
 [assembly: MelonColor(255, 3, 252, 78)]

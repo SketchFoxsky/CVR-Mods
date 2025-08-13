@@ -1,5 +1,5 @@
 {
-  "_id": -1,
+  "_id": 260,
   "name": "PortableCameraEnhancements",
   "modversion": "1.0.0",
   "gameversion": "2025r179",
@@ -19,6 +19,6 @@
   ],
   "downloadlink": "https://github.com/SketchFoxsky/CVR-Mods/releases/download/Releases/PortableCameraEnhancements.dll",
   "sourcelink": "https://github.com/SketchFoxsky/CVR-Mods/tree/main/PortableCameraEnhancements",
-  "changelog": "Initial release",
+  "changelog": "Initial release, Updated Developer info",
   "embedcolor": "#fcba03"
 }

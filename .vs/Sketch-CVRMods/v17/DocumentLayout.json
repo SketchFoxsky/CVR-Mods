@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{118153F4-E134-4F9B-85CB-D9290101C226}|red.sim.LightVolumesUdon\\red.sim.LightVolumesUdon.csproj|c:\\users\\leona\\documents\\sketch cvr mods\\cvr-mods\\red.sim.lightvolumesudon\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{118153F4-E134-4F9B-85CB-D9290101C226}|red.sim.LightVolumesUdon\\red.sim.LightVolumesUdon.csproj|solutionrelative:red.sim.lightvolumesudon\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E7A6919D-EAD1-43B3-BF05-9DFA363EB3AB}|PortableCameraEnhancements\\PortableCameraEnhancements.csproj|c:\\users\\leona\\documents\\sketch cvr mods\\cvr-mods\\portablecameraenhancements\\properties\\format.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E7A6919D-EAD1-43B3-BF05-9DFA363EB3AB}|PortableCameraEnhancements\\PortableCameraEnhancements.csproj|solutionrelative:portablecameraenhancements\\properties\\format.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{118153F4-E134-4F9B-85CB-D9290101C226}|red.sim.LightVolumesUdon\\red.sim.LightVolumesUdon.csproj|c:\\users\\leona\\documents\\sketch cvr mods\\cvr-mods\\red.sim.lightvolumesudon\\scripts\\pointlightvolumeinstance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{118153F4-E134-4F9B-85CB-D9290101C226}|red.sim.LightVolumesUdon\\red.sim.LightVolumesUdon.csproj|solutionrelative:red.sim.lightvolumesudon\\scripts\\pointlightvolumeinstance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{17EAB855-833B-45D1-8B92-CFBFA1BD58DD}|SourceMovement\\SourceMovement.csproj|c:\\users\\leona\\documents\\sketch cvr mods\\cvr-mods\\sourcemovement\\format.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{17EAB855-833B-45D1-8B92-CFBFA1BD58DD}|SourceMovement\\SourceMovement.csproj|solutionrelative:sourcemovement\\format.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{118153F4-E134-4F9B-85CB-D9290101C226}|red.sim.LightVolumesUdon\\red.sim.LightVolumesUdon.csproj|c:\\users\\leona\\documents\\sketch cvr mods\\cvr-mods\\red.sim.lightvolumesudon\\scripts\\lightvolumemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{118153F4-E134-4F9B-85CB-D9290101C226}|red.sim.LightVolumesUdon\\red.sim.LightVolumesUdon.csproj|solutionrelative:red.sim.lightvolumesudon\\scripts\\lightvolumemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{118153F4-E134-4F9B-85CB-D9290101C226}|red.sim.LightVolumesUdon\\red.sim.LightVolumesUdon.csproj|c:\\users\\leona\\documents\\sketch cvr mods\\cvr-mods\\red.sim.lightvolumesudon\\format.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{118153F4-E134-4F9B-85CB-D9290101C226}|red.sim.LightVolumesUdon\\red.sim.LightVolumesUdon.csproj|solutionrelative:red.sim.lightvolumesudon\\format.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{118153F4-E134-4F9B-85CB-D9290101C226}|red.sim.LightVolumesUdon\\red.sim.LightVolumesUdon.csproj|c:\\users\\leona\\documents\\sketch cvr mods\\cvr-mods\\red.sim.lightvolumesudon\\scripts\\lightvolumeinstance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{118153F4-E134-4F9B-85CB-D9290101C226}|red.sim.LightVolumesUdon\\red.sim.LightVolumesUdon.csproj|solutionrelative:red.sim.lightvolumesudon\\scripts\\lightvolumeinstance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{063CD98D-9094-437C-8C49-B40E3B9FAB3A}|PhysicSounds\\PhysicSounds.csproj|c:\\users\\leona\\documents\\sketch cvr mods\\cvr-mods\\physicsounds\\format.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{063CD98D-9094-437C-8C49-B40E3B9FAB3A}|PhysicSounds\\PhysicSounds.csproj|solutionrelative:physicsounds\\format.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17EAB855-833B-45D1-8B92-CFBFA1BD58DD}|SourceMovement\\SourceMovement.csproj|c:\\users\\leona\\documents\\sketch cvr mods\\cvr-mods\\sourcemovement\\sourcemovement.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{17EAB855-833B-45D1-8B92-CFBFA1BD58DD}|SourceMovement\\SourceMovement.csproj|solutionrelative:sourcemovement\\sourcemovement.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,55 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "LightVolumeInstance.cs",
-              "DocumentMoniker": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\red.sim.LightVolumesUdon\\Scripts\\LightVolumeInstance.cs",
-              "RelativeDocumentMoniker": "red.sim.LightVolumesUdon\\Scripts\\LightVolumeInstance.cs",
-              "ToolTip": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\red.sim.LightVolumesUdon\\Scripts\\LightVolumeInstance.cs",
-              "RelativeToolTip": "red.sim.LightVolumesUdon\\Scripts\\LightVolumeInstance.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAAEoAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-08T22:09:55.391Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LightVolumeManager.cs",
-              "DocumentMoniker": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\red.sim.LightVolumesUdon\\Scripts\\LightVolumeManager.cs",
-              "RelativeDocumentMoniker": "red.sim.LightVolumesUdon\\Scripts\\LightVolumeManager.cs",
-              "ToolTip": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\red.sim.LightVolumesUdon\\Scripts\\LightVolumeManager.cs",
-              "RelativeToolTip": "red.sim.LightVolumesUdon\\Scripts\\LightVolumeManager.cs",
-              "ViewState": "AgIAADMBAAAAAAAAAAAAwFsBAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-08T22:09:52.847Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PointLightVolumeInstance.cs",
-              "DocumentMoniker": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\red.sim.LightVolumesUdon\\Scripts\\PointLightVolumeInstance.cs",
-              "RelativeDocumentMoniker": "red.sim.LightVolumesUdon\\Scripts\\PointLightVolumeInstance.cs",
-              "ToolTip": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\red.sim.LightVolumesUdon\\Scripts\\PointLightVolumeInstance.cs",
-              "RelativeToolTip": "red.sim.LightVolumesUdon\\Scripts\\PointLightVolumeInstance.cs",
-              "ViewState": "AgIAAOEAAAAAAAAAAAAAAAcBAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-08T22:09:50.171Z"
+              "Title": "format.json",
+              "DocumentMoniker": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\PhysicSounds\\format.json",
+              "RelativeDocumentMoniker": "PhysicSounds\\format.json",
+              "ToolTip": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\PhysicSounds\\format.json",
+              "RelativeToolTip": "PhysicSounds\\format.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-13T20:56:09.585Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Main.cs",
-              "DocumentMoniker": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\red.sim.LightVolumesUdon\\Main.cs",
-              "RelativeDocumentMoniker": "red.sim.LightVolumesUdon\\Main.cs",
-              "ToolTip": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\red.sim.LightVolumesUdon\\Main.cs",
-              "RelativeToolTip": "red.sim.LightVolumesUdon\\Main.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-08T21:53:02.887Z",
+              "Title": "format.json",
+              "DocumentMoniker": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\PortableCameraEnhancements\\Properties\\format.json",
+              "RelativeDocumentMoniker": "PortableCameraEnhancements\\Properties\\format.json",
+              "ToolTip": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\PortableCameraEnhancements\\Properties\\format.json*",
+              "RelativeToolTip": "PortableCameraEnhancements\\Properties\\format.json*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-13T20:55:46.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "format.json",
+              "DocumentMoniker": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\red.sim.LightVolumesUdon\\format.json",
+              "RelativeDocumentMoniker": "red.sim.LightVolumesUdon\\format.json",
+              "ToolTip": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\red.sim.LightVolumesUdon\\format.json",
+              "RelativeToolTip": "red.sim.LightVolumesUdon\\format.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-13T20:55:17.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "format.json",
+              "DocumentMoniker": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\SourceMovement\\format.json",
+              "RelativeDocumentMoniker": "SourceMovement\\format.json",
+              "ToolTip": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\SourceMovement\\format.json",
+              "RelativeToolTip": "SourceMovement\\format.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-13T20:53:28.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SourceMovement",
+              "DocumentMoniker": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\SourceMovement\\SourceMovement.csproj",
+              "RelativeDocumentMoniker": "SourceMovement\\SourceMovement.csproj",
+              "ToolTip": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\SourceMovement\\SourceMovement.csproj",
+              "RelativeToolTip": "SourceMovement\\SourceMovement.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-13T20:51:55.924Z",
               "EditorCaption": ""
             }
           ]
