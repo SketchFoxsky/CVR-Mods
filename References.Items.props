@@ -92,6 +92,10 @@
             <HintPath>$(MsBuildThisFileDirectory)\.ManagedLibs\Crc32.NET.dll</HintPath>
             <Private>False</Private>
         </Reference>
+        <Reference Include="CVRLogger">
+            <HintPath>$(MsBuildThisFileDirectory)\.ManagedLibs\CVRLogger.dll</HintPath>
+            <Private>False</Private>
+        </Reference>
         <Reference Include="DarkRift.Client">
             <HintPath>$(MsBuildThisFileDirectory)\.ManagedLibs\DarkRift.Client.dll</HintPath>
             <Private>False</Private>

@@ -388,3 +388,5 @@ NStrip.exe
 /red.sim.LightVolumes/Scripts
 /red.sim.LightVolumesUdon/Scripts
 /PhysicSounds/Components
+/.Experimental
+/PhysicSounds/Components

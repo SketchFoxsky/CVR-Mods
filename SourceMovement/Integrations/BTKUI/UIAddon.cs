@@ -1,8 +1,5 @@
 ﻿using BTKUILib;
 using BTKUILib.UIObjects;
-using Sketch.SourceMovement;
-using System;
-using System.IO;
 using System.Reflection;
 using MelonLoader;
 
@@ -16,9 +13,18 @@ namespace SourceMovement.Integrations
 
         public static void Initialize()
         {
-            SetupIcons();
-            SetupSM_ModTab();
+            try
+            {
+                SetupIcons();
+                SetupSM_ModTab();
+                MelonLogger.Msg("[BTKUIAddon] Source Movement tab created successfully.");
+            }
+            catch (Exception ex)
+            {
+                MelonLogger.Error($"[BTKUIAddon] Failed to create Source Movement tab: {ex}");
+            }
         }
+
 
         private static void SetupIcons()
         {
@@ -26,15 +32,15 @@ namespace SourceMovement.Integrations
             string assemblyName = assembly.GetName().Name;
 
             QuickMenuAPI.PrepareIcon("Source Movement", "Crowbar", GetIconStream("Crowbar.png"));
-
-            Stream GetIconStream(string iconName) => assembly.GetManifestResourceStream($"{assemblyName}.Resources.{iconName}");
             MelonLogger.Msg("BTKUI Tab should be made");
-            return;
+            Stream GetIconStream(string iconName) => assembly.GetManifestResourceStream($"{assemblyName}.Resources.{iconName}");
+            
+            
         }
 
         private static void SetupSM_ModTab()
         {
-            _rootPage = new Page("Source Movement", "Source Movement Settings", true, "Crowbar")
+            _rootPage = new Page("Source Movement", "Source Movement Settings", true, "Crowbar", null)
             {
                 MenuTitle = "Source Movement",
                 MenuSubtitle = "Move around like Gordon Freeman, or dont; up to you."

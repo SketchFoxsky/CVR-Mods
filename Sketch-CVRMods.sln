@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocalMomentumTeleport", "Lo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "red.sim.LightVolumesUdon", "red.sim.LightVolumesUdon\red.sim.LightVolumesUdon.csproj", "{118153F4-E134-4F9B-85CB-D9290101C226}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PickupArmMovment", "PickupArmMovement\PickupArmMovment.csproj", "{142C5115-9CD3-4F6C-9B88-F169B00FC414}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{118153F4-E134-4F9B-85CB-D9290101C226}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{118153F4-E134-4F9B-85CB-D9290101C226}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{118153F4-E134-4F9B-85CB-D9290101C226}.Release|Any CPU.Build.0 = Release|Any CPU
+		{142C5115-9CD3-4F6C-9B88-F169B00FC414}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{142C5115-9CD3-4F6C-9B88-F169B00FC414}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{142C5115-9CD3-4F6C-9B88-F169B00FC414}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{142C5115-9CD3-4F6C-9B88-F169B00FC414}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
