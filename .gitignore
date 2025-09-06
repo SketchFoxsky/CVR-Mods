@@ -394,3 +394,7 @@ NStrip.exe
 /ClimbingSystem/obj
 /VoiceReconnectionButton/obj
 /YTDLP Nightly/obj
+PhysicSounds/Components/PhysicSound/Scripts/PhysicSound.cs
+PhysicSounds/Components/PhysicSound/Scripts/PhysicSound.cs.meta
+PhysicSounds/Components/PhysicSound/Scripts/PhysicSounds.asmdef
+PhysicSounds/Components/PhysicSound/Scripts/PhysicSounds.asmdef.meta
