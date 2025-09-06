@@ -8,7 +8,7 @@ namespace Sketch.PhysicSounds
         public override void OnInitializeMelon()
         {
             SharedFilter.SpawnableWhitelist.Add(typeof(PhysicSound));
-            SharedFilter.LocalComponentWhitelist.Add(typeof(PhysicSound));
+            WorldFilter._Base.Add(typeof(PhysicSound));
             LoggerInstance.Msg("Initialized.");
         }
     }

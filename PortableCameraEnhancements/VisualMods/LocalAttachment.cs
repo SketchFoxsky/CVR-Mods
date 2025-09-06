@@ -6,6 +6,7 @@ using ABI_RC.Systems.Camera;
 
 namespace Sketch.PortableCameraEnhancements.VisualMods
 {
+
     public class LocalAttachment : ICameraVisualMod
     {
         private readonly string _name = "Local Attachment";

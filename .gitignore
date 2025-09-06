@@ -390,3 +390,7 @@ NStrip.exe
 /PhysicSounds/Components
 /.Experimental
 /PhysicSounds/Components
+/Climbing/obj
+/ClimbingSystem/obj
+/VoiceReconnectionButton/obj
+/YTDLP Nightly/obj

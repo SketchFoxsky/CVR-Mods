@@ -3,44 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{142C5115-9CD3-4F6C-9B88-F169B00FC414}|PickupArmMovement\\PickupArmMovment.csproj|c:\\users\\leona\\documents\\sketch cvr mods\\cvr-mods\\pickuparmmovement\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{142C5115-9CD3-4F6C-9B88-F169B00FC414}|PickupArmMovement\\PickupArmMovment.csproj|solutionrelative:pickuparmmovement\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E7A6919D-EAD1-43B3-BF05-9DFA363EB3AB}|PortableCameraEnhancements\\PortableCameraEnhancements.csproj|c:\\users\\leona\\documents\\sketch cvr mods\\cvr-mods\\portablecameraenhancements\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7A6919D-EAD1-43B3-BF05-9DFA363EB3AB}|PortableCameraEnhancements\\PortableCameraEnhancements.csproj|solutionrelative:portablecameraenhancements\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{142C5115-9CD3-4F6C-9B88-F169B00FC414}|PickupArmMovement\\PickupArmMovment.csproj|c:\\users\\leona\\documents\\sketch cvr mods\\cvr-mods\\pickuparmmovement\\pickuparmmovment.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{142C5115-9CD3-4F6C-9B88-F169B00FC414}|PickupArmMovement\\PickupArmMovment.csproj|solutionrelative:pickuparmmovement\\pickuparmmovment.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\PlayerRagdollMod\\Main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PlayerRagdollMod\\Main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{063CD98D-9094-437C-8C49-B40E3B9FAB3A}|PhysicSounds\\PhysicSounds.csproj|c:\\users\\leona\\documents\\sketch cvr mods\\cvr-mods\\physicsounds\\physicsounds.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{063CD98D-9094-437C-8C49-B40E3B9FAB3A}|PhysicSounds\\PhysicSounds.csproj|solutionrelative:physicsounds\\physicsounds.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\PlayerRagdollMod\\Utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PlayerRagdollMod\\Utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\PlayerRagdollMod\\ArmMover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PlayerRagdollMod\\ArmMover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\PlayerRagdollMod\\AvatarBoolParameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PlayerRagdollMod\\AvatarBoolParameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\PlayerRagdollMod\\GameEvents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PlayerRagdollMod\\GameEvents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\PlayerRagdollMod\\Settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PlayerRagdollMod\\Settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\PlayerRagdollMod\\ResourcesHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PlayerRagdollMod\\ResourcesHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E7A6919D-EAD1-43B3-BF05-9DFA363EB3AB}|PortableCameraEnhancements\\PortableCameraEnhancements.csproj|c:\\users\\leona\\documents\\sketch cvr mods\\cvr-mods\\portablecameraenhancements\\properties\\format.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E7A6919D-EAD1-43B3-BF05-9DFA363EB3AB}|PortableCameraEnhancements\\PortableCameraEnhancements.csproj|solutionrelative:portablecameraenhancements\\properties\\format.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,128 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "format.json",
+              "DocumentMoniker": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\PortableCameraEnhancements\\Properties\\format.json",
+              "RelativeDocumentMoniker": "PortableCameraEnhancements\\Properties\\format.json",
+              "ToolTip": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\PortableCameraEnhancements\\Properties\\format.json",
+              "RelativeToolTip": "PortableCameraEnhancements\\Properties\\format.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-06T04:02:15.852Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "AssemblyInfo.cs",
-              "DocumentMoniker": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\PickupArmMovement\\Properties\\AssemblyInfo.cs",
-              "RelativeDocumentMoniker": "PickupArmMovement\\Properties\\AssemblyInfo.cs",
-              "ToolTip": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\PickupArmMovement\\Properties\\AssemblyInfo.cs",
-              "RelativeToolTip": "PickupArmMovement\\Properties\\AssemblyInfo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\PortableCameraEnhancements\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "PortableCameraEnhancements\\Properties\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\PortableCameraEnhancements\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "PortableCameraEnhancements\\Properties\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-15T20:33:39.386Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PickupArmMovment",
-              "DocumentMoniker": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\PickupArmMovement\\PickupArmMovment.csproj",
-              "RelativeDocumentMoniker": "PickupArmMovement\\PickupArmMovment.csproj",
-              "ToolTip": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\PickupArmMovement\\PickupArmMovment.csproj",
-              "RelativeToolTip": "PickupArmMovement\\PickupArmMovment.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-08-15T20:30:27.019Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Utils.cs",
-              "DocumentMoniker": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\PlayerRagdollMod\\Utils.cs",
-              "RelativeDocumentMoniker": "PlayerRagdollMod\\Utils.cs",
-              "ToolTip": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\PlayerRagdollMod\\Utils.cs",
-              "RelativeToolTip": "PlayerRagdollMod\\Utils.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-15T20:27:57.257Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ArmMover.cs",
-              "DocumentMoniker": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\PlayerRagdollMod\\ArmMover.cs",
-              "RelativeDocumentMoniker": "PlayerRagdollMod\\ArmMover.cs",
-              "ToolTip": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\PlayerRagdollMod\\ArmMover.cs",
-              "RelativeToolTip": "PlayerRagdollMod\\ArmMover.cs",
-              "ViewState": "AgIAABICAAAAAAAAAAAAABYCAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-15T20:06:34.96Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AvatarBoolParameter.cs",
-              "DocumentMoniker": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\PlayerRagdollMod\\AvatarBoolParameter.cs",
-              "RelativeDocumentMoniker": "PlayerRagdollMod\\AvatarBoolParameter.cs",
-              "ToolTip": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\PlayerRagdollMod\\AvatarBoolParameter.cs",
-              "RelativeToolTip": "PlayerRagdollMod\\AvatarBoolParameter.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-15T20:06:31.52Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "GameEvents.cs",
-              "DocumentMoniker": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\PlayerRagdollMod\\GameEvents.cs",
-              "RelativeDocumentMoniker": "PlayerRagdollMod\\GameEvents.cs",
-              "ToolTip": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\PlayerRagdollMod\\GameEvents.cs",
-              "RelativeToolTip": "PlayerRagdollMod\\GameEvents.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-15T20:06:16.488Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Settings.cs",
-              "DocumentMoniker": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\PlayerRagdollMod\\Settings.cs",
-              "RelativeDocumentMoniker": "PlayerRagdollMod\\Settings.cs",
-              "ToolTip": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\PlayerRagdollMod\\Settings.cs",
-              "RelativeToolTip": "PlayerRagdollMod\\Settings.cs",
-              "ViewState": "AgIAALoAAAAAAAAAAAAAAHAAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-15T20:05:50.431Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ResourcesHandler.cs",
-              "DocumentMoniker": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\PlayerRagdollMod\\ResourcesHandler.cs",
-              "RelativeDocumentMoniker": "PlayerRagdollMod\\ResourcesHandler.cs",
-              "ToolTip": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\PlayerRagdollMod\\ResourcesHandler.cs",
-              "RelativeToolTip": "PlayerRagdollMod\\ResourcesHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-15T20:05:25.52Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Main.cs",
-              "DocumentMoniker": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\PlayerRagdollMod\\Main.cs",
-              "RelativeDocumentMoniker": "PlayerRagdollMod\\Main.cs",
-              "ToolTip": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\PlayerRagdollMod\\Main.cs",
-              "RelativeToolTip": "PlayerRagdollMod\\Main.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-15T20:05:22.282Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PhysicSounds.csproj",
-              "DocumentMoniker": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\PhysicSounds\\PhysicSounds.csproj",
-              "RelativeDocumentMoniker": "PhysicSounds\\PhysicSounds.csproj",
-              "ToolTip": "C:\\Users\\leona\\Documents\\Sketch CVR Mods\\CVR-Mods\\PhysicSounds\\PhysicSounds.csproj",
-              "RelativeToolTip": "PhysicSounds\\PhysicSounds.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-08-15T20:01:06.826Z",
+              "WhenOpened": "2025-09-05T02:48:16.404Z",
               "EditorCaption": ""
             }
           ]
